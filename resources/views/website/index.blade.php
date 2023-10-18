@@ -20,8 +20,8 @@
                     data-responsive_offset="on"
                     data-start="700">
                     <div class="slide-content-box">
-                        <h1>Provide Solution <br>for Industries plan  </h1>
-                        <p>They'll have to make the best of things its an uphill climb.<br> The weather started getting was tossed.  </p>
+                        <h1>Enterprise Data <br /> Integration for Efficiency</h1>
+                        <p> Empower your business with seamless data synchronization, enhancing workflow <br />efficiency and productivity across applications.</p>
                     </div>
                 </div>
                 <div class="tp-caption tp-resizeme" 
@@ -73,8 +73,8 @@
                     data-responsive_offset="on"
                     data-start="700">
                     <div class="slide-content-box">
-                        <h1>We help Industries<br>innovate and grow.</h1>
-                        <p>They'll have to make the best of things its an uphill climb.<br> The weather started getting was tossed.  </p>
+                        <h1>Real-Time Access: <br> Empowering Informed Decisions</h1>
+                        <p>Utilize our advanced connectivity solutions for real-time data access, <br> enabling precise and swift data-driven decision-making in your enterprise.</p>
                     </div>
                 </div>
                 <div class="tp-caption tp-resizeme" 
@@ -125,8 +125,8 @@
                     data-responsive_offset="on"
                     data-start="700">
                     <div class="slide-content-box">
-                        <h1>Welcome to Factory & <br>Industrial Buisness </h1>
-                        <p>They'll have to make the best of things its an uphill climb.<br> The weather started getting was tossed.  </p>
+                        <h1>Smooth Operations: <br> Optimizing Data Flow</h1>
+                        <p>Maximize operational efficiency by ensuring uninterrupted data flow across critical enterprise <br> applications and infrastructure using our comprehensive connectivity platform.</p>
                     </div>
                 </div>
                 <div class="tp-caption tp-resizeme" 
@@ -167,14 +167,14 @@
         </ul>
     </div>
 </section>
-<!--End rev slider wrapper--> 
- 
+<!--End rev slider wrapper-->
+
 
 <section class="about-us sec-padd-top">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12">
-                
+
                 <figure class="about-img">
                     <img src="{{asset('fontend')}}/images/resource/1.png" alt="about titan builders photo">
                 </figure>
@@ -182,36 +182,39 @@
             <div class="col-md-6 col-sm-12">
                 <div class="about-text">
                     <h2>
-                        about our <span class="thm-color">Factory & industries</span>
+                        about our <span class="thm-color">Real-Time Data Connectivity Platform</span>
                     </h2>
                     <div class="text">
-                        <p>Thank you for being a friend. Travelled down the road and back again. Your heart is true you're a pal and a confidant. It's time to put on makeup. It's time to dress up right.They're all together ooky the Addams Family doin' it our way. There's nothing we wont try. Never heard the word impossible. This time there's no stopping us.</p>
+                        <p>With simple, real-time data connectivity from ASIS, everyone in your org is empowered to eliminate data silos, collaborate effectively, and break down barriers to better insights.</p>
                     </div>
                     <div class="fact-counter">
                         <ul>
                             <li class="single-fact-counter">
                                 <div class="icon-holder"><span class="flaticon-social"></span></div>
-                                <span class="timer" data-from="1" data-to="2456" data-speed="5000" data-refresh-interval="50">2456</span>
+                                <span class="timer" data-from="1" data-to="2456" data-speed="5000"
+                                    data-refresh-interval="50">2456</span>
                                 <i class="fa fa-plus" aria-hidden="true"></i>
-                                <h3>Engineers & Workers</h3>    
+                                <h3>Engineers & Workers</h3>
                             </li>
                             <li class="single-fact-counter">
                                 <div class="icon-holder"><span class="flaticon-landscape"></span></div>
-                                <span class="timer" data-from="1" data-to="640" data-speed="5000" data-refresh-interval="50">640</span>
+                                <span class="timer" data-from="1" data-to="640" data-speed="5000"
+                                    data-refresh-interval="50">640</span>
                                 <i class="fa fa-plus" aria-hidden="true"></i>
                                 <h3>Factory in Worldwide</h3>
                             </li>
                             <li class="single-fact-counter">
                                 <div class="icon-holder"><span class="flaticon-innovation"></span></div>
-                                <span class="timer" data-from="1" data-to="3250" data-speed="5000" data-refresh-interval="50">3250</span>
+                                <span class="timer" data-from="1" data-to="3250" data-speed="5000"
+                                    data-refresh-interval="50">3250</span>
                                 <i class="fa fa-plus" aria-hidden="true"></i>
                                 <h3>Projects Completed</h3>
-                            </li>    
+                            </li>
                         </ul>
                     </div>
 
                 </div>
-                    
+
 
             </div>
         </div>
@@ -221,78 +224,97 @@
 
 <section class="our-services">
     <div class="container">
-        
+
         <div class="row">
             <div class="col-md-4 col-sm-5 col-xs-12">
                 <div class="section-title">
                     <h2>Our Services</h2>
-                </div> 
+                </div>
             </div>
             <div class="col-md-8 col-sm-7 col-xs-12 font-20">
-                <p>We have built an enviable reputation in consumer goods, heavy industry, high-tech, <br>manufacturing, medical, recreational vehicle, and transportation sectors.</p><br>
+                <p>We have built an enviable reputation in consumer goods, heavy industry, high-tech, <br>manufacturing,
+                    medical, recreational vehicle, and transportation sectors.</p><br>
             </div>
         </div>
-     
+
         <div class="row">
             <div class="col-md-4 col-sm-6">
                 <div class="single-our-service">
                     <figure class="img-box">
-                        <a href="single-service.html"><img src="{{asset('fontend')}}/images/service/1.jpg" alt="Awesome Image"></a>
+                        <a href="single-service.html"><img src="{{asset('fontend')}}/images/service/1.jpg"
+                                alt="Awesome Image"></a>
                     </figure>
-                    <a href="single-service.html"><h4>Agricultural Engineering</h4></a>
+                    <a href="single-service.html">
+                        <h4>Agricultural Engineering</h4>
+                    </a>
                     <p>We develop and design new procedures, tools <br>
-                    systems for agricultural products environments. </p>
+                        systems for agricultural products environments. </p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="single-our-service">
                     <figure class="img-box">
-                        <a href="single-service.html"><img src="{{asset('fontend')}}/images/service/2.jpg" alt="Awesome Image"></a>
+                        <a href="single-service.html"><img src="{{asset('fontend')}}/images/service/2.jpg"
+                                alt="Awesome Image"></a>
                     </figure>
-                    <a href="single-service.html"><h4>Chemical Research Engineering</h4></a>
+                    <a href="single-service.html">
+                        <h4>Chemical Research Engineering</h4>
+                    </a>
                     <p>Chemical Research expertise in producing and <br>
-                    manipulating chemicals to energy properties.</p>
+                        manipulating chemicals to energy properties.</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="single-our-service">
                     <figure class="img-box">
-                        <a href="single-service.html"><img src="{{asset('fontend')}}/images/service/3.jpg" alt="Awesome Image"></a>
+                        <a href="single-service.html"><img src="{{asset('fontend')}}/images/service/3.jpg"
+                                alt="Awesome Image"></a>
                     </figure>
-                    <a href="single-service.html"><h4>Material Science and Engineering</h4></a>
+                    <a href="single-service.html">
+                        <h4>Material Science and Engineering</h4>
+                    </a>
                     <p>Materials Engineering should include scientific and <br>
-                    engineering strength relationships of materials. </p>
+                        engineering strength relationships of materials. </p>
                 </div>
             </div>
 
             <div class="col-md-4 col-sm-6">
                 <div class="single-our-service">
                     <figure class="img-box">
-                        <a href="#single-service.html"><img src="{{asset('fontend')}}/images/service/4.jpg" alt="Awesome Image"></a>
+                        <a href="#single-service.html"><img src="{{asset('fontend')}}/images/service/4.jpg"
+                                alt="Awesome Image"></a>
                     </figure>
-                    <a href="#single-service.html"><h4>Mechanical Engineering</h4></a>
+                    <a href="#single-service.html">
+                        <h4>Mechanical Engineering</h4>
+                    </a>
                     <p>Creating a dynamic company for the continuous <br>
-                    exploration and develop opportunities. </p>
+                        exploration and develop opportunities. </p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="single-our-service">
                     <figure class="img-box">
-                        <a href="#single-service.html"><img src="{{asset('fontend')}}/images/service/5.jpg" alt="Awesome Image"></a>
+                        <a href="#single-service.html"><img src="{{asset('fontend')}}/images/service/5.jpg"
+                                alt="Awesome Image"></a>
                     </figure>
-                    <a href="#single-service.html"><h4>Petroleum and Gas</h4></a>
+                    <a href="#single-service.html">
+                        <h4>Petroleum and Gas</h4>
+                    </a>
                     <p>Petroleum Engineers are concerned with the <br>
-                     exploration, discovery and production.</p>
+                        exploration, discovery and production.</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="single-our-service">
                     <figure class="img-box">
-                        <a href="#single-service.html"><img src="{{asset('fontend')}}/images/service/6.jpg" alt="Awesome Image"></a>
+                        <a href="#single-service.html"><img src="{{asset('fontend')}}/images/service/6.jpg"
+                                alt="Awesome Image"></a>
                     </figure>
-                    <a href="#single-service.html"><h4>Power and Energy</h4></a>
-                    <p>Ensuring high reliability and optimal performance <br>of 
-                    rotating power equipment.</p>
+                    <a href="#single-service.html">
+                        <h4>Power and Energy</h4>
+                    </a>
+                    <p>Ensuring high reliability and optimal performance <br>of
+                        rotating power equipment.</p>
                 </div>
             </div>
 
@@ -309,12 +331,14 @@
             <div class="item">
                 <div class="single-project">
                     <figure class="imghvr-shutter-in-out-horiz">
-                        <img src="{{asset('fontend')}}/images/project/p1.jpg" alt="Awesome Image"/>
+                        <img src="{{asset('fontend')}}/images/project/p1.jpg" alt="Awesome Image" />
                         <figcaption>
                             <div class="content">
-                                <a href="project-single.html"><h4>PETROLEUM GAS</h4></a>
+                                <a href="project-single.html">
+                                    <h4>PETROLEUM GAS</h4>
+                                </a>
                                 <p>Chemical</p>
-                            </div> 
+                            </div>
                         </figcaption>
                     </figure>
                 </div>
@@ -322,50 +346,56 @@
             <div class="item">
                 <div class="single-latest-project-carousel">
                     <div class="single-project">
-                    <figure class="imghvr-shutter-in-out-horiz">
-                        <img src="{{asset('fontend')}}/images/project/p2.jpg" alt="Awesome Image"/>
-                        <figcaption>
-                            <div class="content">
-                                <a href="project-single.html"><h4>MULTI SPRING PUSH</h4></a>
-                                <p>Mechanical</p>
-                            </div>    
-                        </figcaption>
-                    </figure>
-                </div>
+                        <figure class="imghvr-shutter-in-out-horiz">
+                            <img src="{{asset('fontend')}}/images/project/p2.jpg" alt="Awesome Image" />
+                            <figcaption>
+                                <div class="content">
+                                    <a href="project-single.html">
+                                        <h4>MULTI SPRING PUSH</h4>
+                                    </a>
+                                    <p>Mechanical</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
                 </div><!-- /.single-latest-project-carousel -->
             </div>
             <div class="item">
                 <div class="single-latest-project-carousel">
                     <div class="single-project">
-                    <figure class="imghvr-shutter-in-out-horiz">
-                        <img src="{{asset('fontend')}}/images/project/p3.jpg" alt="Awesome Image"/>
-                        <figcaption>
-                            <div class="content">
-                                <a href="project-single.html"><h4>STORAGE SYSTEM</h4></a>
-                                <p>Power Energy</p>
-                            </div> 
-                        </figcaption>
-                    </figure>
-                </div>
+                        <figure class="imghvr-shutter-in-out-horiz">
+                            <img src="{{asset('fontend')}}/images/project/p3.jpg" alt="Awesome Image" />
+                            <figcaption>
+                                <div class="content">
+                                    <a href="project-single.html">
+                                        <h4>STORAGE SYSTEM</h4>
+                                    </a>
+                                    <p>Power Energy</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
                 </div>
             </div>
             <div class="item">
                 <div class="single-latest-project-carousel">
                     <div class="single-project">
-                    <figure class="imghvr-shutter-in-out-horiz">
-                        <img src="{{asset('fontend')}}/images/project/p4.jpg" alt="Awesome Image"/>
-                        <figcaption>
-                            <div class="content">
-                                <a href="project-single.html"><h4>MENUFACTURING</h4></a>
-                                <p>Agricultural</p>
-                            </div> 
-                        </figcaption>
-                    </figure>
+                        <figure class="imghvr-shutter-in-out-horiz">
+                            <img src="{{asset('fontend')}}/images/project/p4.jpg" alt="Awesome Image" />
+                            <figcaption>
+                                <div class="content">
+                                    <a href="project-single.html">
+                                        <h4>MENUFACTURING</h4>
+                                    </a>
+                                    <p>Agricultural</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
                 </div>
-                </div>
-            </div>            
+            </div>
         </div>
-                
+
     </div>
 </section>
 
@@ -377,7 +407,8 @@
         </div>
         <div class="row">
             <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="default-blog-news wow fadeInUp animated animated" style="visibility: visible; animation-name: fadeInUp;">
+                <div class="default-blog-news wow fadeInUp animated animated"
+                    style="visibility: visible; animation-name: fadeInUp;">
                     <figure class="img-holder">
                         <a href="blog-details.html"><img src="{{asset('fontend')}}/images/blog/1.jpg" alt="News"></a>
                         <figcaption class="overlay">
@@ -389,21 +420,26 @@
                         </figcaption>
                     </figure>
                     <div class="lower-content">
-                        <a href="blog-details.html"><h4>MATERIALS & MANUFACTURING </h4></a>
-                        <div class="post-meta">by fletcher  |  14 Comments | 21 Feb</div>
+                        <a href="blog-details.html">
+                            <h4>MATERIALS & MANUFACTURING </h4>
+                        </a>
+                        <div class="post-meta">by fletcher | 14 Comments | 21 Feb</div>
                         <div class="text">
-                            <p>Except to obtain some advantage from it? But who has any right to find to enjoy a pleasure.</p>               
+                            <p>Except to obtain some advantage from it? But who has any right to find to enjoy a
+                                pleasure.</p>
                         </div>
                         <div class="link">
-                            <a href="blog-details.html" class="default_link">Read More <i class="fa fa-angle-right"></i></a>
+                            <a href="blog-details.html" class="default_link">Read More <i
+                                    class="fa fa-angle-right"></i></a>
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="default-blog-news wow fadeInUp animated animated" style="visibility: visible; animation-name: fadeInUp;">
+                <div class="default-blog-news wow fadeInUp animated animated"
+                    style="visibility: visible; animation-name: fadeInUp;">
                     <figure class="img-holder">
                         <a href="blog-details.html"><img src="{{asset('fontend')}}/images/blog/2.jpg" alt="News"></a>
                         <figcaption class="overlay">
@@ -415,21 +451,25 @@
                         </figcaption>
                     </figure>
                     <div class="lower-content">
-                        <a href="blog-details.html"><h4>COMMERCIAL AND  REAL PROJECTS</h4></a>
-                        <div class="post-meta">by Richards  |  22 Comments | 17 Apr</div>
+                        <a href="blog-details.html">
+                            <h4>COMMERCIAL AND REAL PROJECTS</h4>
+                        </a>
+                        <div class="post-meta">by Richards | 22 Comments | 17 Apr</div>
                         <div class="text">
-                            <p>Great pleasure to take a trivial example, which of us undertakes laborious.</p>                            
+                            <p>Great pleasure to take a trivial example, which of us undertakes laborious.</p>
                         </div>
                         <div class="link">
-                            <a href="blog-details.html" class="default_link">Read More <i class="fa fa-angle-right"></i></a>
+                            <a href="blog-details.html" class="default_link">Read More <i
+                                    class="fa fa-angle-right"></i></a>
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="default-blog-news wow fadeInUp animated animated" style="visibility: visible; animation-name: fadeInUp;">
+                <div class="default-blog-news wow fadeInUp animated animated"
+                    style="visibility: visible; animation-name: fadeInUp;">
                     <figure class="img-holder">
                         <a href="blog-details.html"><img src="{{asset('fontend')}}/images/blog/3.jpg" alt="News"></a>
                         <figcaption class="overlay">
@@ -441,27 +481,30 @@
                         </figcaption>
                     </figure>
                     <div class="lower-content">
-                        <a href="blog-details.html"><h4>MATERIALS FOR THE ECONOMY</h4></a>
-                        <div class="post-meta">by Vincent  |  16 Comments | 14 June</div>
+                        <a href="blog-details.html">
+                            <h4>MATERIALS FOR THE ECONOMY</h4>
+                        </a>
+                        <div class="post-meta">by Vincent | 16 Comments | 14 June</div>
                         <div class="text">
-                            <p>Pleasure and praising pain was born and I will give you a complete account.</p>                            
+                            <p>Pleasure and praising pain was born and I will give you a complete account.</p>
                         </div>
                         <div class="link">
-                            <a href="blog-details.html" class="default_link">Read More <i class="fa fa-angle-right"></i></a>
+                            <a href="blog-details.html" class="default_link">Read More <i
+                                    class="fa fa-angle-right"></i></a>
                         </div>
-                        
+
                     </div>
                 </div>
-                
+
             </div>
-            
+
         </div>
     </div>
 </section>
 
 <section class="call-back sec-padd2" style="background-image: url({{asset('fontend')}}/images/background/4.jpg);">
     <div class="container">
-                
+
         <div class="row">
             <div class="col-md-5 col-sm-12">
                 <div class="section-title">
@@ -470,21 +513,28 @@
                 <h4>Have You Any Question About Us?</h4>
                 <br>
                 <div class="text">
-                    <p>Any kind of business solution and consultion hesitate to contact with us for customer support. We are love to hear from you</p><br>
-                    <p><span>Phone & Email:</span> For any information contact with us through our <a href="#"> Email</a> and you can also contact with directe by call us in this number <span>(+880) 1723801729</span></p><br>
-                    <p><span>Office Hours:</span> We are alwyes open excpet saturday & Sunday from <span>10:00am</span> to <span> 8:00pm</span></p>
+                    <p>Any kind of business solution and consultion hesitate to contact with us for customer support. We
+                        are love to hear from you</p><br>
+                    <p><span>Phone & Email:</span> For any information contact with us through our <a href="#">
+                            Email</a> and you can also contact with directe by call us in this number <span>(+880)
+                            1723801729</span></p><br>
+                    <p><span>Office Hours:</span> We are alwyes open excpet saturday & Sunday from <span>10:00am</span>
+                        to <span> 8:00pm</span></p>
                 </div>
             </div>
             <div class="col-md-7 col-sm-12">
                 <div class="contact-form-area">
                     <div class="contact-form">
-                        <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php" method="post" novalidate="novalidate">
+                        <form id="contact-form" name="contact_form" class="default-form" action="inc/sendmail.php"
+                            method="post" novalidate="novalidate">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="text" name="form_name" value="" placeholder="Your Name*" required="" aria-required="true">
+                                    <input type="text" name="form_name" value="" placeholder="Your Name*" required=""
+                                        aria-required="true">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="email" name="form_email" value="" placeholder="Your Mail*" required="" aria-required="true">
+                                    <input type="email" name="form_email" value="" placeholder="Your Mail*" required=""
+                                        aria-required="true">
                                 </div>
                             </div>
                             <div class="row">
@@ -497,19 +547,22 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <textarea name="form_message" placeholder="Your Message.." required="" aria-required="true"></textarea>
+                                    <textarea name="form_message" placeholder="Your Message.." required=""
+                                        aria-required="true"></textarea>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
-                                    <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                                    <button class="thm-btn bg-clr1" type="submit" data-loading-text="Please wait...">send message</button>
+                                    <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden"
+                                        value="">
+                                    <button class="thm-btn bg-clr1" type="submit"
+                                        data-loading-text="Please wait...">send message</button>
                                 </div>
                             </div>
-                        </form>  
+                        </form>
                     </div>
                 </div>
-                    
+
             </div>
         </div>
     </div>
