@@ -709,7 +709,8 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
 
 .mainmenu-area .mainmenu-bg {
   position: relative;
-  background: #292929;
+  /* background: #292929; */
+  background: #3185B3;
   transition: all 0.5s ease 0s;
 }
 .main-menu {

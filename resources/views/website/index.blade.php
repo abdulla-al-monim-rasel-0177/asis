@@ -6,7 +6,7 @@
     <div id="slider1" class="rev_slider"  data-version="5.0">
         <ul>
             <li data-transition="slidingoverlayleft">
-                <img src="{{asset('fontend')}}/images/slides/2.jpg"  alt="" width="1920" height="880" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
+                <img src="{{asset('fontend')}}/images/slides/cover-1.png"  alt="" width="1920" height="880" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
                 
                 <div class="tp-caption  tp-resizeme" 
                     data-x="right" data-hoffset="15" 
@@ -59,7 +59,7 @@
             </li>
 
             <li data-transition="slidingoverlayright">
-                <img src="{{asset('fontend')}}/images/slides/3.jpg"  alt="" width="1920" height="550" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
+                <img src="{{asset('fontend')}}/images/slides/cover-2.png"  alt="" width="1920" height="550" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
                 
                 <div class="tp-caption  tp-resizeme" 
                     data-x="left" data-hoffset="15" 
@@ -111,7 +111,7 @@
                 </div>
             </li>
             <li data-transition="slidingoverlayleft">
-                <img src="{{asset('fontend')}}/images/slides/1.jpg"  alt="" width="1920" height="880" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
+                <img src="{{asset('fontend')}}/images/slides/cover-3.png"  alt="" width="1920" height="880" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
                 
                 <div class="tp-caption  tp-resizeme" 
                     data-x="left" data-hoffset="15" 
@@ -125,7 +125,7 @@
                     data-responsive_offset="on"
                     data-start="700">
                     <div class="slide-content-box">
-                        <h1>Smooth Operations: <br> Optimizing Data Flow</h1>
+                        <h1 class="thm-color">Smooth Operations: <br> Optimizing Data Flow</h1>
                         <p>Maximize operational efficiency by ensuring uninterrupted data flow across critical enterprise <br> applications and infrastructure using our comprehensive connectivity platform.</p>
                     </div>
                 </div>
@@ -185,7 +185,9 @@
                         about our <span class="thm-color">Real-Time Data Connectivity Platform</span>
                     </h2>
                     <div class="text">
-                        <p>With simple, real-time data connectivity from ASIS, everyone in your org is empowered to eliminate data silos, collaborate effectively, and break down barriers to better insights.</p>
+                        <p>With simple, real-time data connectivity from ASIS, everyone in your org is empowered to
+                            eliminate data silos, collaborate effectively, and break down barriers to better insights.
+                        </p>
                     </div>
                     <div class="fact-counter">
                         <ul>
@@ -571,11 +573,30 @@
 <section class="brand-logo sec-padd">
     <div class="container">
         <ul class="brand-carousel">
-            <li><a href="#"><img src="{{asset('fontend')}}/images/brand/1.jpg" alt=""></a></li>
-            <li><a href="#"><img src="{{asset('fontend')}}/images/brand/2.jpg" alt=""></a></li>
-            <li><a href="#"><img src="{{asset('fontend')}}/images/brand/3.jpg" alt=""></a></li>
-            <li><a href="#"><img src="{{asset('fontend')}}/images/brand/4.jpg" alt=""></a></li>
-            <li><a href="#"><img src="{{asset('fontend')}}/images/brand/5.jpg" alt=""></a></li>
+            <li>
+                <a href="#"><img src="{{asset('fontend')}}/images/brand/afro.png" class="shadow-lg" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="{{asset('fontend')}}/images/brand/afro-academy.png" class="shadow-lg" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="{{asset('fontend')}}/images/brand/afro-radio.png" class="shadow-lg" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="{{asset('fontend')}}/images/brand/benifity.png" class="shadow-lg" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="{{asset('fontend')}}/images/brand/dars.png" class="shadow-lg" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="{{asset('fontend')}}/images/brand/takewin.png" class="shadow-lg" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="{{asset('fontend')}}/images/brand/tozeef.png" class="shadow-lg" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="{{asset('fontend')}}/images/brand/ustaze.png" class="shadow-lg" alt=""></a>
+            </li>
         </ul>
     </div>
 </section>

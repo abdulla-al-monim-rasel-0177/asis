@@ -17,9 +17,9 @@
                                 <span class="fa fa-home"></span>
                             </div>
                             <div class="text-holder">
-
-                                <h6>321, Breaking Street</h6>
-                                <p>Newyork ,USA 10002</p>
+                             
+                                <h6>Farrag Mall, Central Axis</h6>
+                                <p>6th October, Giza, Egypt</p>
                             </div>
                         </li>
                         <li>
@@ -28,7 +28,7 @@
                             </div>
                             <div class="text-holder">
                                 <h6>Call Us On</h6>
-                                <p>1-8000-978-6543</p>
+                                <p>(+20) 2 38367340/9</p>
                             </div>
                         </li>
                         <li>
@@ -36,8 +36,8 @@
                                 <span class="icon-letter-1"></span>
                             </div>
                             <div class="text-holder">
-                                <h6>Mail Us @</h6>
-                                <a href="#"><p>Supportuss@gmail.com</p></a>
+                                <h6>Mail Us</h6>
+                                <a href="#"><p>support@asis.com</p></a>
                             </div>
                         </li>
                     </ul>
@@ -71,10 +71,10 @@
                                 <li ><a href="{{route('website.about')}}">About us</a>
                                    
                                 </li>
-                                <li ><a href="{{route('website.services')}}">Services</a>
+                                <li ><a href="{{route('website.services')}}">Our Brands</a>
                                    
                                 </li>
-                                <li ><a href="{{route('website.projects')}}">Projects</a>
+                                <li ><a href="{{route('website.projects')}}">Products</a>
                                     
                                 </li>
                                 <li ><a href="{{route('website.news')}}">Latest News</a>
