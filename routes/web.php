@@ -74,7 +74,7 @@ Route::controller(WebsiteController::class)->group(function () {
     Route::get('/project', 'project')->name('website.project');
 });
 
-Route::get('/home',[AdminDashboardController::class,'dashboard'])->name('admin.dashboard');
+
 
 Route::group(['middleware' =>['admin.auth','auth']], function(){
     Route::group(['prefix'=>'admin'],function(){
@@ -93,7 +93,7 @@ Route::group(['middleware' =>['admin.auth','auth']], function(){
         Route::post('agent/status/{id}',[AgentCreateController::class,'status'])->name('admin.imp.status.update');
         Route::get('agentprofile/{id}',[AgentCreateController::class,'show'])->name('admin.agent.show');
         Route::group(['prefix'=>'category'],function(){
-            Route::get('index',[ProductCategory::class,'index'])->name('admin.agent.show');
+            Route::get('index',[ProductCategory::class,'index'])->name('category.index');
         });
 
 
