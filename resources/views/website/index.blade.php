@@ -178,7 +178,7 @@
                 </figure>
             </div>
             <div class="col-md-6 col-sm-12">
-                <div class="about-text flex">
+                <div class="about-text d-flex">
                     <h2>
                         about our <span class="thm-color">Real-Time Data Connectivity Platform</span>
                     </h2>
