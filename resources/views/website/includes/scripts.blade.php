@@ -1,4 +1,5 @@
 <!--Scroll to top-->
+<script src="{{asset('fontend')}}/js/bootstrap-js.min.js"></script>
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
 <div class="prealoader"></div>
 <!-- main jQuery -->
