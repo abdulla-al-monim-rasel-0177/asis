@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\AdminDashboardController;
 use App\Http\Controllers\Admin\RoleCreateController;
 use App\Http\Controllers\Admin\AgentCreateController;
+use App\Http\Controllers\Product\ProductCategory;
 use App\Http\Controllers\Auth\AuthenticatedSessionController;
 use App\Http\Controllers\Website\WebsiteController;
 /*
@@ -91,6 +92,9 @@ Route::group(['middleware' =>['admin.auth','auth']], function(){
         Route::post('agent',[AgentCreateController::class,'store'])->name('admin.imp.store');
         Route::post('agent/status/{id}',[AgentCreateController::class,'status'])->name('admin.imp.status.update');
         Route::get('agentprofile/{id}',[AgentCreateController::class,'show'])->name('admin.agent.show');
+        Route::group(['prefix'=>'category'],function(){
+            Route::get('index',[ProductCategory::class,'index'])->name('admin.agent.show');
+        });
 
 
     });
