@@ -162,8 +162,6 @@
                     </div>
                 </div>
             </li>
-            
-            
         </ul>
     </div>
 </section>
@@ -180,7 +178,7 @@
                 </figure>
             </div>
             <div class="col-md-6 col-sm-12">
-                <div class="about-text">
+                <div class="about-text flex">
                     <h2>
                         about our <span class="thm-color">Real-Time Data Connectivity Platform</span>
                     </h2>
@@ -214,10 +212,7 @@
                             </li>
                         </ul>
                     </div>
-
                 </div>
-
-
             </div>
         </div>
     </div>
@@ -574,28 +569,28 @@
     <div class="container">
         <ul class="brand-carousel">
             <li>
-                <a href="#"><img src="{{asset('fontend')}}/images/brand/afro.png" class="shadow-lg" alt=""></a>
+                <a href="https://afro-group.com/"><img src="{{asset('fontend')}}/images/brand/afro.png" class="shadow-lg" alt=""></a>
             </li>
             <li>
-                <a href="#"><img src="{{asset('fontend')}}/images/brand/afro-academy.png" class="shadow-lg" alt=""></a>
+                <a href="https://afro-academy.com/"><img src="{{asset('fontend')}}/images/brand/afro-academy.png" class="shadow-lg" alt=""></a>
             </li>
             <li>
-                <a href="#"><img src="{{asset('fontend')}}/images/brand/afro-radio.png" class="shadow-lg" alt=""></a>
+                <a href="https://radio.afro-group.com/public/afro_radio"><img src="{{asset('fontend')}}/images/brand/afro-radio.png" class="shadow-lg" alt=""></a>
             </li>
             <li>
-                <a href="#"><img src="{{asset('fontend')}}/images/brand/benifity.png" class="shadow-lg" alt=""></a>
+                <a href="https://benifity.com/"><img src="{{asset('fontend')}}/images/brand/benifity.png" class="shadow-lg" alt=""></a>
             </li>
             <li>
-                <a href="#"><img src="{{asset('fontend')}}/images/brand/dars.png" class="shadow-lg" alt=""></a>
+                <a href="https://dars.afro-academy.com/"><img src="{{asset('fontend')}}/images/brand/dars.png" class="shadow-lg" alt=""></a>
             </li>
             <li>
-                <a href="#"><img src="{{asset('fontend')}}/images/brand/takewin.png" class="shadow-lg" alt=""></a>
+                <a href="https://take.win/"><img src="{{asset('fontend')}}/images/brand/takewin.png" class="shadow-lg" alt=""></a>
             </li>
             <li>
-                <a href="#"><img src="{{asset('fontend')}}/images/brand/tozeef.png" class="shadow-lg" alt=""></a>
+                <a href="https://tozeef.com/"><img src="{{asset('fontend')}}/images/brand/tozeef.png" class="shadow-lg" alt=""></a>
             </li>
             <li>
-                <a href="#"><img src="{{asset('fontend')}}/images/brand/ustaze.png" class="shadow-lg" alt=""></a>
+                <a href="https://ustaze.com/"><img src="{{asset('fontend')}}/images/brand/ustaze.png" class="shadow-lg" alt=""></a>
             </li>
         </ul>
     </div>
