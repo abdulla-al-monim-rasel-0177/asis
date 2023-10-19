@@ -5,7 +5,7 @@
             <div class="col-lg-4 col-md-3 col-sm-12 col-xs-12">
                 <div class="logo">
                     <a href="{{route('website.home')}}">
-                        <img src="{{asset('fontend')}}/images/logo/logo.png" alt="Awesome Logo">
+                        <img src="{{asset('fontend')}}/images/logo/logo.jpg" alt="Awesome Logo">
                     </a>
                 </div>
             </div>

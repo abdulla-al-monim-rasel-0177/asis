@@ -9,7 +9,7 @@
                 <img src="{{asset('fontend')}}/images/slides/cover-1.png"  alt="" width="1920" height="880" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
                 
                 <div class="tp-caption  tp-resizeme" 
-                    data-x="right" data-hoffset="15" 
+                data-x="left" data-hoffset="15" 
                     data-y="center" data-voffset="-50" 
                     data-transform_idle="o:1;"         
                     data-transform_in="x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" 
@@ -25,7 +25,7 @@
                     </div>
                 </div>
                 <div class="tp-caption tp-resizeme" 
-                    data-x="right" data-hoffset="390" 
+                    data-x="left" data-hoffset="15" 
                     data-y="center" data-voffset="110" 
                     data-transform_idle="o:1;"                         
                     data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div class="tp-caption tp-resizeme" 
-                    data-x="right" data-hoffset="180" 
+                    data-x="left" data-hoffset="227" 
                     data-y="center" data-voffset="110" 
                     data-transform_idle="o:1;"                         
                     data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
@@ -178,8 +178,8 @@
                 </figure>
             </div>
             <div class="col-md-6 col-sm-12">
-                <div class="about-text d-flex">
-                    <h2>
+                <div class="about-text">
+                    <h2 class="fs-1">
                         about our <span class="thm-color">Real-Time Data Connectivity Platform</span>
                     </h2>
                     <div class="text">
@@ -501,8 +501,7 @@
 
 <section class="call-back sec-padd2" style="background-image: url({{asset('fontend')}}/images/background/4.jpg);">
     <div class="container">
-
-        <div class="row">
+        <div class="row" style="background-color: rgba(0, 0, 0, 0.7); padding-top: 50px; padding-left: 30px; padding-right: 30px; border-radius: 10px;">
             <div class="col-md-5 col-sm-12">
                 <div class="section-title">
                     <h2>Request a Call Back</h2>
@@ -569,28 +568,36 @@
     <div class="container">
         <ul class="brand-carousel">
             <li>
-                <a href="https://afro-group.com/"><img src="{{asset('fontend')}}/images/brand/afro.png" class="shadow-lg" alt=""></a>
+                <a href="https://afro-group.com/"><img src="{{asset('fontend')}}/images/brand/afro.png"
+                        class="shadow-lg" alt=""></a>
             </li>
             <li>
-                <a href="https://afro-academy.com/"><img src="{{asset('fontend')}}/images/brand/afro-academy.png" class="shadow-lg" alt=""></a>
+                <a href="https://afro-academy.com/"><img src="{{asset('fontend')}}/images/brand/afro-academy.png"
+                        class="shadow-lg" alt=""></a>
             </li>
             <li>
-                <a href="https://radio.afro-group.com/public/afro_radio"><img src="{{asset('fontend')}}/images/brand/afro-radio.png" class="shadow-lg" alt=""></a>
+                <a href="https://radio.afro-group.com/public/afro_radio"><img
+                        src="{{asset('fontend')}}/images/brand/afro-radio.png" class="shadow-lg" alt=""></a>
             </li>
             <li>
-                <a href="https://benifity.com/"><img src="{{asset('fontend')}}/images/brand/benifity.png" class="shadow-lg" alt=""></a>
+                <a href="https://benifity.com/"><img src="{{asset('fontend')}}/images/brand/benifity.png"
+                        class="shadow-lg" alt=""></a>
             </li>
             <li>
-                <a href="https://dars.afro-academy.com/"><img src="{{asset('fontend')}}/images/brand/dars.png" class="shadow-lg" alt=""></a>
+                <a href="https://dars.afro-academy.com/"><img src="{{asset('fontend')}}/images/brand/dars.png"
+                        class="shadow-lg" alt=""></a>
             </li>
             <li>
-                <a href="https://take.win/"><img src="{{asset('fontend')}}/images/brand/takewin.png" class="shadow-lg" alt=""></a>
+                <a href="https://take.win/"><img src="{{asset('fontend')}}/images/brand/takewin.png" class="shadow-lg"
+                        alt=""></a>
             </li>
             <li>
-                <a href="https://tozeef.com/"><img src="{{asset('fontend')}}/images/brand/tozeef.png" class="shadow-lg" alt=""></a>
+                <a href="https://tozeef.com/"><img src="{{asset('fontend')}}/images/brand/tozeef.png" class="shadow-lg"
+                        alt=""></a>
             </li>
             <li>
-                <a href="https://ustaze.com/"><img src="{{asset('fontend')}}/images/brand/ustaze.png" class="shadow-lg" alt=""></a>
+                <a href="https://ustaze.com/"><img src="{{asset('fontend')}}/images/brand/ustaze.png" class="shadow-lg"
+                        alt=""></a>
             </li>
         </ul>
     </div>

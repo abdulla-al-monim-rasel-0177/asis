@@ -6,7 +6,7 @@
                     <div class="footer-col">
                         <div class="logo-part">
                             <a href="#" class="footer-logo text-uppercase">
-                                <img src="{{asset('fontend')}}/images/logo/logo-2.png" alt="logo">
+                                <img src="{{asset('fontend')}}/images/logo/logo2.jpg" alt="logo">
                             </a>
                         </div>
                         <p class="footer-words">Over 24 years experience and of the international user standards and technological works changes and industrial systems, we dedicated to provide the best and economical. </p>
