@@ -20,8 +20,8 @@
                     data-responsive_offset="on"
                     data-start="700">
                     <div class="slide-content-box">
-                        <h1>Enterprise Data <br /> Integration for Efficiency</h1>
-                        <p> Empower your business with seamless data synchronization, enhancing workflow <br />efficiency and productivity across applications.</p>
+                        <h1>Telecommunications <br> Solutions</h1>
+                        <p>We offer a comprehensive range of telecom equipment, from telephone <br> systems to VoIP solutions, that keep you connected efficiently and reliably.</p>
                     </div>
                 </div>
                 <div class="tp-caption tp-resizeme" 
@@ -73,8 +73,8 @@
                     data-responsive_offset="on"
                     data-start="700">
                     <div class="slide-content-box">
-                        <h1>Real-Time Access: <br> Empowering Informed Decisions</h1>
-                        <p>Utilize our advanced connectivity solutions for real-time data access, <br> enabling precise and swift data-driven decision-making in your enterprise.</p>
+                        <h1>Optical Fiber And Electrical <br> Network Solutions</h1>
+                        <p>From concept to completion, we design, refine, and construct <br> fiber optic and cable networks and  electric networks.</p>
                     </div>
                 </div>
                 <div class="tp-caption tp-resizeme" 
@@ -125,8 +125,8 @@
                     data-responsive_offset="on"
                     data-start="700">
                     <div class="slide-content-box">
-                        <h1 class="thm-color">Smooth Operations: <br> Optimizing Data Flow</h1>
-                        <p>Maximize operational efficiency by ensuring uninterrupted data flow across critical enterprise <br> applications and infrastructure using our comprehensive connectivity platform.</p>
+                        <h1 class="thm-color">Data Centers <br> Works & Services</h1>
+                        <p>Build & Operate digital and edge data center solutions that help <br> customers build and operate reliable, efficient, and sustainable data centers</p>
                     </div>
                 </div>
                 <div class="tp-caption tp-resizeme" 
@@ -180,14 +180,15 @@
             <div class="col-md-6 col-sm-12">
                 <div class="about-text">
                     <h2 class="fs-1">
-                        about our <span class="thm-color">Real-Time Data Connectivity Platform</span>
+                        Premiere Provider of telecommunications and contracting services in Egypt and Africa
+                        <!-- about our <span class="thm-color">Real-Time Data Connectivity Platform</span> -->
                     </h2>
                     <div class="text">
-                        <p>With simple, real-time data connectivity from ASIS, everyone in your org is empowered to
-                            eliminate data silos, collaborate effectively, and break down barriers to better insights.
+                        <p>It provides its clients with the economics of a third party vendor and the loyalty of a
+                            trusted business partner.
                         </p>
                     </div>
-                    <div class="fact-counter">
+                    <!-- <div class="fact-counter">
                         <ul>
                             <li class="single-fact-counter">
                                 <div class="icon-holder"><span class="flaticon-social"></span></div>
@@ -211,7 +212,7 @@
                                 <h3>Projects Completed</h3>
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -225,12 +226,14 @@
         <div class="row">
             <div class="col-md-4 col-sm-5 col-xs-12">
                 <div class="section-title">
-                    <h2>Our Services</h2>
+                    <h2>Our Solutions</h2>
                 </div>
             </div>
             <div class="col-md-8 col-sm-7 col-xs-12 font-20">
-                <p>We have built an enviable reputation in consumer goods, heavy industry, high-tech, <br>manufacturing,
-                    medical, recreational vehicle, and transportation sectors.</p><br>
+                <p>Providing cutting-edge solutions to meet the diverse needs of our clients in the telecommunications
+                    and power industries. Our range of products and solutions is designed to address the unique
+                    challenges faced by businesses and organizations in today's ever-evolving technological landscape.
+                    Explore how our solutions can empower your operations and drive success. </p><br>
             </div>
         </div>
 
@@ -242,10 +245,11 @@
                                 alt="Awesome Image"></a>
                     </figure>
                     <a href="single-service.html">
-                        <h4>Agricultural Engineering</h4>
+                        <h4 class="line-1-truncate">Optical Fiber And Electrical Network Solutions</h4>
                     </a>
-                    <p>We develop and design new procedures, tools <br>
-                        systems for agricultural products environments. </p>
+                    <p class="line-2-truncate">Asis helps its esteemed clients create their fiber and electric networks
+                        by providing both design
+                        and execution for fiber optics and electric networks.</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
@@ -255,10 +259,12 @@
                                 alt="Awesome Image"></a>
                     </figure>
                     <a href="single-service.html">
-                        <h4>Chemical Research Engineering</h4>
+                        <h4 class="line-1-truncate">Data Centers Works & Services</h4>
                     </a>
-                    <p>Chemical Research expertise in producing and <br>
-                        manipulating chemicals to energy properties.</p>
+                    <p class="line-2-truncate">Products Tailored for Any Scenario
+                        With an extensive range of products, including prefabricated modular data center solutions, core
+                        components ranging from power supply , cooling to DCIM
+                    </p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
@@ -268,13 +274,13 @@
                                 alt="Awesome Image"></a>
                     </figure>
                     <a href="single-service.html">
-                        <h4>Material Science and Engineering</h4>
+                        <h4 class="line-1-truncate">Telecommunications Solutions</h4>
                     </a>
-                    <p>Materials Engineering should include scientific and <br>
-                        engineering strength relationships of materials. </p>
+                    <p class="line-2-truncate">We offer a comprehensive range of telecom equipment, from telephone
+                        systems to VoIP solutions,
+                        that keep you connected efficiently and reliably.</p>
                 </div>
             </div>
-
             <div class="col-md-4 col-sm-6">
                 <div class="single-our-service">
                     <figure class="img-box">
@@ -282,10 +288,10 @@
                                 alt="Awesome Image"></a>
                     </figure>
                     <a href="#single-service.html">
-                        <h4>Mechanical Engineering</h4>
+                        <h4 class="line-1-truncate">Power & Energy Solutions</h4>
                     </a>
-                    <p>Creating a dynamic company for the continuous <br>
-                        exploration and develop opportunities. </p>
+                    <p class="line-2-truncate">Reliable Power Generators: Keep your operations running smoothly with our
+                        range of power generators, ensuring a constant and stable power supply.</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
@@ -295,10 +301,11 @@
                                 alt="Awesome Image"></a>
                     </figure>
                     <a href="#single-service.html">
-                        <h4>Petroleum and Gas</h4>
+                        <h4 class="line-1-truncate">Renewable Energy Solutions</h4>
                     </a>
-                    <p>Petroleum Engineers are concerned with the <br>
-                        exploration, discovery and production.</p>
+                    <p class="line-2-truncate">Solar Panels: Embrace sustainable energy generation with our advanced
+                        solar panels, harnessing the power of the sun.
+                    </p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
@@ -308,10 +315,11 @@
                                 alt="Awesome Image"></a>
                     </figure>
                     <a href="#single-service.html">
-                        <h4>Power and Energy</h4>
+                        <h4 class="line-1-truncate">Low Current Solutions</h4>
                     </a>
-                    <p>Ensuring high reliability and optimal performance <br>of
-                        rotating power equipment.</p>
+                    <p class="line-2-truncate">Low Voltage Cables: Enhance your low current systems with our
+                        high-quality cables and wiring solutions.
+                    </p>
                 </div>
             </div>
 
@@ -501,7 +509,8 @@
 
 <section class="call-back sec-padd2" style="background-image: url({{asset('fontend')}}/images/background/4.jpg);">
     <div class="container">
-        <div class="row" style="background-color: rgba(0, 0, 0, 0.7); padding-top: 50px; padding-left: 30px; padding-right: 30px; border-radius: 10px;">
+        <div class="row"
+            style="background-color: rgba(0, 0, 0, 0.7); padding-top: 50px; padding-left: 30px; padding-right: 30px; border-radius: 10px;">
             <div class="col-md-5 col-sm-12">
                 <div class="section-title">
                     <h2>Request a Call Back</h2>
@@ -511,9 +520,8 @@
                 <div class="text">
                     <p>Any kind of business solution and consultion hesitate to contact with us for customer support. We
                         are love to hear from you</p><br>
-                    <p><span>Phone & Email:</span> For any information contact with us through our <a href="#">
-                            Email</a> and you can also contact with directe by call us in this number <span>(+880)
-                            1723801729</span></p><br>
+                    <p><span>Phone & Email:</span> For any information contact with us through our <a href="mailto:support@asis.com">
+                            Email</a> and you can also contact with directe by call us in this number <a href="tel:+20238367340/9">(+20) 2 38367340/9</a></p><br>
                     <p><span>Office Hours:</span> We are alwyes open excpet saturday & Sunday from <span>10:00am</span>
                         to <span> 8:00pm</span></p>
                 </div>

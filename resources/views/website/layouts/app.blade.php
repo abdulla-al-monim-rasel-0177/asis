@@ -20,9 +20,9 @@
 <section class="top-bar-area">
     <div class="container">
         <div class="clearfix">
-            <div class="pull-left"><p>Welcome to Factory & Industrial buisness</p></div>
+            <div class="pull-left"><p>Welcome to Advanced System Integration Solutions</p></div>
             <div class="pull-right">
-                <p><i class="fa fa-clock-o"></i>Monday - friday : 8:00 AM to 7:00 Pm</p>
+                <p><i class="fa fa-clock-o"></i>Sunday - Thursday : 8:00 AM to 7:00 Pm</p>
             </div>
         </div>
 

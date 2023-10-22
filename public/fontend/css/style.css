@@ -115,6 +115,21 @@ input,textarea {font-family: 'Hind', sans-serif;display: block; font-size: 16px;
   }
 }
 
+
+.line-1-truncate {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.line-2-truncate {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
 .boxed_wrapper {
     width: 100%;
     background: #fff;

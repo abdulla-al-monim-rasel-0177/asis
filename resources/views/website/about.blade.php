@@ -2,17 +2,14 @@
 
 @section('content')
 
- 
-<!--Start breadcrumb area-->     
-<section class="breadcrumb-area" style="background-image: url({{asset('fontend')}}/images/background/3.jpg);">
-    <div class="container text-center">
-        <h1>About us</h1>
-    </div>
-</section>
-<!--End breadcrumb area-->
+
+<!--Start breadcrumb area-->
+<section class="breadcrumb-area" style="background-image: url({{asset('fontend')}}/images/background/3.jpg);"> <div
+    class="container text-center"> <h1>About us</h1>
+    </div> </section> <!--End breadcrumb area-->
 
 
-<section class="about-us sec-padd-top">
+    <section class="about-us sec-padd-top">
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12">
@@ -24,12 +21,12 @@
             <div class="col-md-6 col-sm-12">
                 <div class="about-text">
                     <h2>
-                        about our <span class="thm-color">Factory & industries</span>
+                    Premiere Provider of telecommunications and contracting services in Egypt and Africa
                     </h2>
                     <div class="text">
-                        <p>Thank you for being a friend. Travelled down the road and back again. Your heart is true you're a pal and a confidant. It's time to put on makeup. It's time to dress up right.They're all together ooky the Addams Family doin' it our way. There's nothing we wont try. Never heard the word impossible. This time there's no stopping us.</p>
+                        <p>It provides its clients with the economics of a third party vendor and the loyalty of a trusted business partner.</p>
                     </div>
-                    <div class="fact-counter">
+                    <!-- <div class="fact-counter">
                         <ul>
                             <li class="single-fact-counter">
                                 <div class="icon-holder"><span class="flaticon-social"></span></div>
@@ -50,7 +47,7 @@
                                 <h3>Projects Completed</h3>
                             </li>    
                         </ul>
-                    </div>
+                    </div> -->
 
                 </div>
                     
@@ -63,204 +60,10 @@
 <section class="call-out sec-padd center" style="background-image: url({{asset('fontend')}}/images/background/2.jpg);">
     <div class="container">
         <div class="content">
-            <h2>action is the foundational key to all success</h2>
-            <p>Where the kisses are hers and hers and his. Three's company too. Goodbye gray sky hello blue. There's nothing can hold me <br>when I hold you. Feels so right it cant be wrong. Rockin' and rollin' all week long.</p>
+            <h2>Since 2022,we have been delivering cutting-edge telecommunication infrastructure solutions.</h2>
+            <p>Our success stems from the dedicated efforts of our highly experienced and fully authorized specialists, as well as our committed team of subcontractors, who ensure the utmost quality and excellence in every project we undertake.</p>
             <a href="contact.html" class="thm-btn bg-clr1">contact us</a>
         </div>
-    </div>
-</section>
-
-<section class="why-chooseus sec-padd2">
-    <div class="container">
-
-        <div class="section-title center">
-            <h2>why choose Us</h2>
-        </div>
-        
-        <div class="row">
-        
-
-            <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                <!--inner-box-->
-                <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-   
-                    <!--icon-box-->
-                    <div class="icon_box">
-                        <span class="flaticon-people-1"></span>
-                    </div>
-                    
-                    <h4>EXPERIENCED</h4>
-                    <div class="text"><p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track now. </p></div>
-                </div>
-            </div>      
-            <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                <!--inner-box-->
-                <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-   
-                    <!--icon-box-->
-                    <div class="icon_box">
-                        <span class="flaticon-sun"></span>
-                    </div>
-                    
-                    <h4>PROFESSIONAL SERVICE</h4>
-                    <div class="text"><p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track now.</p></div>
-                </div>
-            </div>      
-            <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                <!--inner-box-->
-                <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-   
-                    <!--icon-box-->
-                    <div class="icon_box">
-                        <span class="flaticon-people-2"></span>
-                    </div>
-                    
-                    <h4>PUBLIC PROJECTS</h4>
-                    <div class="text"><p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track now.</p></div>
-                </div>
-            </div>      
-            <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                <!--inner-box-->
-                <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-   
-                    <!--icon-box-->
-                    <div class="icon_box">
-                        <span class="flaticon-factory"></span>
-                    </div>
-                    
-                    <h4>SUPERIOR QUALITY</h4>
-                    <div class="text"><p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track now. </p></div>
-                </div>
-            </div>      
-            <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                <!--inner-box-->
-                <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-   
-                    <!--icon-box-->
-                    <div class="icon_box">
-                        <span class="flaticon-arrows"></span>
-                    </div>
-                    
-                    <h4>COMPETITIVE PRICE</h4>
-                    <div class="text"><p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track now. </p></div>
-                </div>
-            </div>      
-            <div class="item col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                <!--inner-box-->
-                <div class="inner-box wow fadeIn animated animated" data-wow-delay="0ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeIn;">
-   
-                    <!--icon-box-->
-                    <div class="icon_box">
-                        <span class="flaticon-technology-1"></span>
-                    </div>
-                    
-                    <h4>TIME DELIVERY</h4>
-                    <div class="text"><p>Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track now. </p></div>
-                </div>
-            </div>      
-            
-        </div>
-    </div>
-</section>
-
-<section class="testimonial padd3">
-    <div class="container">
-        <div class="section-title center">
-            <h2>Client Feedback</h2>
-        </div>
-        <div class="testimonial-carousel">
-            <div class="testimonial-item">
-                <div class="content">
-                    <span class="fa fa-quote-left"></span>
-                    <p>Lorem ipsum dolor sit amet ment tionim sea. Ei explicari evertitur uptatum vi core zupitor inciderint reforin alienum</p>
-
-                    <ul class="rating">
-                        <li class="fa fa-star"></li>
-                        <li class="fa fa-star"></li>
-                        <li class="fa fa-star"></li>
-                        <li class="fa fa-star"></li>
-                        <li class="fa fa-star"></li>
-                    </ul>
-                </div>
-                <div class="author">
-                    <ul class="list-inline">
-                        <li>
-                            <img src="{{asset('fontend')}}/images/team/1.png" alt="">
-                        </li>
-                        <li>
-                            <h5>Allen Duckeat</h5>
-                            <p>Newyork</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="testimonial-item">
-                <div class="content">
-                    <span class="fa fa-quote-left"></span>
-                    <p>Lorem ipsum dolor sit amet ment tionim sea. Ei explicari evertitur uptatum vi core zupitor inciderint reforin alienum</p>
-
-                    <ul class="rating">
-                        <li class="fa fa-star"></li>
-                        <li class="fa fa-star"></li>
-                        <li class="fa fa-star"></li>
-                        <li class="fa fa-star"></li>
-                        <li class="fa fa-star"></li>
-                    </ul>
-                </div>
-                <div class="author">
-                    <ul class="list-inline">
-                        <li>
-                            <img src="{{asset('fontend')}}/images/team/2.png" alt="">
-                        </li>
-                        <li>
-                            <h5>mack raider</h5>
-                            <p>California</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="testimonial-item">
-                <div class="content">
-                    <span class="fa fa-quote-left"></span>
-                    <p>Lorem ipsum dolor sit amet ment tionim sea. Ei explicari evertitur uptatum vi core zupitor inciderint reforin alienum</p>
-
-                    <ul class="rating">
-                        <li class="fa fa-star"></li>
-                        <li class="fa fa-star"></li>
-                        <li class="fa fa-star"></li>
-                        <li class="fa fa-star"></li>
-                        <li class="fa fa-star"></li>
-                    </ul>
-                </div>
-                <div class="author">
-                    <ul class="list-inline">
-                        <li>
-                            <img src="{{asset('fontend')}}/images/team/3.png" alt="">
-                        </li>
-                        <li>
-                            <h5>Don Flethcer</h5>
-                            <p>Los Angeles</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="subscribe center sec-padd" style="background-image: url({{asset('fontend')}}/images/background/5.jpg);">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
-                <h2>Subscribe For Newsletter</h2>
-                <p>Idea of denouncing pleasure praising pain was born and I will give you a complete account <br> ofsystem, expound the great explorer.</p>
-                <form class="subscribe-form">
-                    <input type="email" placeholder="Email Address"><span class="fa fa-envelope"></span>
-                    <button type="submit" class="thm-btn bg-clr1">subscribe us</button>
-                </form>
-            </div>
-        </div>
-                
     </div>
 </section>
 
@@ -356,6 +159,23 @@
                 
             </article>      
         </div>
+    </div>
+</section>
+
+
+<section class="subscribe center sec-padd" style="background-image: url({{asset('fontend')}}/images/background/5.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
+                <h2>Subscribe For Newsletter</h2>
+                <p>Subscribe To Our Newsletter To Stay Updated</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Email Address"><span class="fa fa-envelope"></span>
+                    <button type="submit" class="thm-btn bg-clr1">subscribe us</button>
+                </form>
+            </div>
+        </div>
+                
     </div>
 </section>
 
