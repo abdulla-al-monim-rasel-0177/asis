@@ -4,6 +4,7 @@
 	href="{{asset('fontend')}}/css/style.css">
 <!-- Responsive stylesheet -->
 	<link rel="stylesheet" href="{{asset('fontend')}}/css/responsive.css">
+	<!-- <link rel="stylesheet" href="{{asset('public')}}/css/app.css"> -->
     <!-- Favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{asset('fontend')}}/images/favicon/apple-touch-icon.png"> <link
 	rel="icon" type="image/png" href="{{asset('fontend')}}/images/favicon/favicon-32x32.png" sizes="32x32"> <link
