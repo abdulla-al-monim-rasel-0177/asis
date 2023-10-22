@@ -4,7 +4,8 @@ namespace App\Http\Controllers\Website;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-
+use App\Models\Category;
+use App\Models\Product;
 class WebsiteController extends Controller
 {
     public function index(){
@@ -29,14 +30,21 @@ class WebsiteController extends Controller
 
         return view('website.services');
     }
-    public function projects(){
+    public function products(){
+            $categories = Category::where('status', '1')->get();
+            $data['categories'] = $categories;
+            $products = Product::orderBy('id', 'DESC')->with('category')->get();
+            $data['products'] = $products;
 
-        return view('website.projects');
+        return view('website.products')->with($data);
     }
 
-    public function project(){
+    public function product($id,$title){
 
-        return view('website.project');
+        $product = Product::where('id', $id)->with('category')->first();
+           
+
+        return view('website.product',compact('product'));
     }
 
 }

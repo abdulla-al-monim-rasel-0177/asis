@@ -38,6 +38,7 @@
                                         <span class="side-menu__label">Dashboard</span>
                                     </a>
                                 </li>
+
                                 <li class="slide">
                                     <a class="side-menu__item"  href="{{url('/admin/profile')}}">
                                         <svg  class="sidemenu_icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 6c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2m0 9c2.7 0 5.8 1.29 6 2v1H6v-.99c.2-.72 3.3-2.01 6-2.01m0-11C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"/></svg>
@@ -64,13 +65,45 @@
                                         @endcan
                                         
                                         <li class=""><a href="{{url('/admin/employee')}}" class="slide-item ">Employees List</a></li>
+
                                        
                                         
 
                                     </ul>
                                 </li>
-                                
-                               
+                                <li class="slide">
+                                    <a class="side-menu__item" data-bs-toggle="slide" href="#">
+                                        <svg class="sidemenu_icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M12 2l-5.5 9h11L12 2zm0 3.84L13.93 9h-3.87L12 5.84zM17.5 13c-2.49 0-4.5 2.01-4.5 4.5s2.01 4.5 4.5 4.5 4.5-2.01 4.5-4.5-2.01-4.5-4.5-4.5zm0 7c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5zM3 21.5h8v-8H3v8zm2-6h4v4H5v-4z"></path></svg>
+                                        <span class="side-menu__label">Categories</span><i class="angle fa fa-angle-right"></i>
+                                    </a>
+                                    <ul class="slide-menu custom-ul">
+                                        
+                                     
+                                        <li><a href="{{route('category.index')}}" class="slide-item">Categories</a></li>
+                                       
+
+
+                                       
+                                    </ul>
+                                </li>
+                               <li class="slide">
+                                    <a class="side-menu__item" data-bs-toggle="slide" href="#">
+                                        <svg class="sidemenu_icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0z" fill="none"/><path d="M22 10V6c0-1.11-.9-2-2-2H4c-1.1 0-1.99.89-1.99 2v4c1.1 0 1.99.9 1.99 2s-.89 2-2 2v4c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-4c-1.1 0-2-.9-2-2s.9-2 2-2zm-2-1.46c-1.19.69-2 1.99-2 3.46s.81 2.77 2 3.46V18H4v-2.54c1.19-.69 2-1.99 2-3.46 0-1.48-.8-2.77-1.99-3.46L4 6h16v2.54zM11 15h2v2h-2zm0-4h2v2h-2zm0-4h2v2h-2z"/></svg>
+                                        <span class="side-menu__label">Product</span><i class="angle fa fa-angle-right"></i>
+                                    </a>
+                                    <ul class="slide-menu custom-ul">
+                                        
+                                        
+                                        <li><a href="{{route('admin.prodcuct.create')}}" class="slide-item">Create product</a></li>
+                                       
+                                        
+                                       
+                                        <li><a href="{{url('/admin/allprodcucts')}}" class="slide-item">All products</a></li>
+                                       
+
+                                       
+                                    </ul>
+                                </li>
                                 <li class="slide">
                                     <a class="side-menu__item" data-bs-toggle="slide" href="#">
                                         <svg class="sidemenu_icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"/></svg>

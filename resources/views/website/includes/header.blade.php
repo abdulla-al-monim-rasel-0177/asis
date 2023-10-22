@@ -74,7 +74,7 @@
                                 <li ><a href="{{route('website.services')}}">Our Brands</a>
                                    
                                 </li>
-                                <li ><a href="{{route('website.projects')}}">Products</a>
+                                <li ><a href="{{route('website.products')}}">Products</a>
                                     
                                 </li>
                                 <li ><a href="{{route('website.news')}}">Latest News</a>
@@ -94,7 +94,7 @@
                                 <li ><a href="{{route('website.services')}}">Services</a>
                                    
                                 </li>
-                                <li ><a href="{{route('website.projects')}}">Projects</a>
+                                <li ><a href="{{route('website.products')}}">Products</a>
                                     
                                 </li>
                                 <li ><a href="{{route('website.news')}}">Latest News</a>

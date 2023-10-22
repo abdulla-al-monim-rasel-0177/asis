@@ -5,7 +5,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\AdminDashboardController;
 use App\Http\Controllers\Admin\RoleCreateController;
 use App\Http\Controllers\Admin\AgentCreateController;
-use App\Http\Controllers\Product\ProductCategory;
+use App\Http\Controllers\Admin\CategoryController;
+use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Auth\AuthenticatedSessionController;
 use App\Http\Controllers\Website\WebsiteController;
 /*
@@ -70,8 +71,8 @@ Route::controller(WebsiteController::class)->group(function () {
     Route::get('/news', 'news')->name('website.news');
     Route::get('/contact-us', 'contact')->name('website.contact');
     Route::get('/solutions', 'services')->name('website.services');
-    Route::get('/projects', 'projects')->name('website.projects');
-    Route::get('/project', 'project')->name('website.project');
+    Route::get('/products', 'products')->name('website.products');
+    Route::get('/product/{id}/{title}', 'product')->name('website.product');
 });
 
 
@@ -92,9 +93,20 @@ Route::group(['middleware' =>['admin.auth','auth']], function(){
         Route::post('agent',[AgentCreateController::class,'store'])->name('admin.imp.store');
         Route::post('agent/status/{id}',[AgentCreateController::class,'status'])->name('admin.imp.status.update');
         Route::get('agentprofile/{id}',[AgentCreateController::class,'show'])->name('admin.agent.show');
-        Route::group(['prefix'=>'category'],function(){
-            Route::get('index',[ProductCategory::class,'index'])->name('category.index');
-        });
+        
+        Route::get('categories',[CategoryController::class,'index'])->name('category.index');
+
+        Route::post('categories/create',[CategoryController::class,'store'])->name('category.store');
+        Route::get('/categories/{id}/edit',[CategoryController::class,'show']);
+
+        Route::get('createproduct',[ProductController::class,'createproduct'])->name('admin.prodcuct.create');
+        Route::post('storeprodcuct',[ProductController::class,'storeprodcuct'])->name('admin.prodcuct.sotre');
+        Route::get('allprodcucts',[ProductController::class,'allprodcucts'])->name('admin.prodcuct.all');
+
+        Route::get('edit-product/{id}',[ProductController::class,'edit'])->name('admin.product.edit');
+        Route::post('update-prodcuct',[ProductController::class,'updateprodcuct'])->name('admin.prodcuct.update');
+        Route::get('delete-product/{id}',[ProductController::class,'destroy'])->name('admin.product.destroy');
+        
 
 
     });
