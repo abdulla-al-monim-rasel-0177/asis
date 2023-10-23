@@ -71,7 +71,7 @@
                                 <li ><a href="{{route('website.about')}}">About us</a>
                                    
                                 </li>
-                                <li ><a href="{{route('website.services')}}">Our Brands</a>
+                                <li ><a href="{{route('website.solutions')}}">Our Solutions</a>
                                    
                                 </li>
                                 <li ><a href="{{route('website.products')}}">Products</a>
@@ -91,7 +91,7 @@
                                 <li ><a href="{{route('website.about')}}">About us</a>
                                    
                                 </li>
-                                <li ><a href="{{route('website.services')}}">Services</a>
+                                <li ><a href="{{route('website.solutions')}}">Solutions</a>
                                    
                                 </li>
                                 <li ><a href="{{route('website.products')}}">Products</a>

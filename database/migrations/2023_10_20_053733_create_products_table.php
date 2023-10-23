@@ -19,6 +19,7 @@ return new class extends Migration
             $table->integer('category_id')->nullable();
             $table->integer('sub_category_id')->nullable();
             $table->string('title')->nullable();
+            $table->string('slug')->nullable();
             $table->string('priority')->nullable();
             $table->string('price')->nullable();
             $table->string('quantity')->nullable();

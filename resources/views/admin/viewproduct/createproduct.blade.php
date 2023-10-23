@@ -81,7 +81,7 @@
 									<div class="form-group ticket-summernote ">
 										<div class="row">
 											<div class="col-md-3">
-												<label class="form-label mb-0 mt-2">Product Sort Description<span class="text-red">*</span></label>
+												<label class="form-label mb-0 mt-2">Summary Description<span class="text-red">*</span></label>
 											</div>
 											<div class="col-md-9">
 												<textarea class=" form-control @error('sort_description') is-invalid @enderror" rows="7" name="sort_description" >{{old('sort_description')}}</textarea>

@@ -153,7 +153,7 @@ class ProductController extends Controller
         
         $ticket = Product::create([
             'title' => $request->input('title'),
-            
+            'slug'  => Str::slug($request->input('title')),
          
             'category_id' => $request->input('category'),
             'sort_description' => $request->input('sort_description'),
@@ -258,7 +258,7 @@ class ProductController extends Controller
         
         $ticket = Product::findOrFail($request->id)->update([
             'title' => $request->input('title'),
-            
+            'slug'  => Str::slug($request->input('title')),
          
             'category_id' => $request->input('category'),
             'sort_description' => $request->input('sort_description'),

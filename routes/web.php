@@ -7,6 +7,7 @@ use App\Http\Controllers\Admin\RoleCreateController;
 use App\Http\Controllers\Admin\AgentCreateController;
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\ProductController;
+use App\Http\Controllers\Admin\SolutionController;
 use App\Http\Controllers\Auth\AuthenticatedSessionController;
 use App\Http\Controllers\Website\WebsiteController;
 /*
@@ -70,7 +71,8 @@ Route::controller(WebsiteController::class)->group(function () {
     Route::get('/about-us', 'about')->name('website.about');
     Route::get('/news', 'news')->name('website.news');
     Route::get('/contact-us', 'contact')->name('website.contact');
-    Route::get('/solutions', 'services')->name('website.services');
+    Route::get('/solutions', 'solutions')->name('website.solutions');
+    Route::get('/solution/{id}/{slug}', 'solution')->name('website.solution');
     Route::get('/products', 'products')->name('website.products');
     Route::get('/product/{id}/{title}', 'product')->name('website.product');
 });
@@ -107,6 +109,15 @@ Route::group(['middleware' =>['admin.auth','auth']], function(){
         Route::post('update-prodcuct',[ProductController::class,'updateprodcuct'])->name('admin.prodcuct.update');
         Route::get('delete-product/{id}',[ProductController::class,'destroy'])->name('admin.product.destroy');
         
+
+        Route::get('createsolution',[SolutionController::class,'createsolution'])->name('admin.solution.create');
+        Route::post('storesolution',[SolutionController::class,'storesolution'])->name('admin.solution.sotre');
+        Route::get('allsolutions',[SolutionController::class,'allsolutions'])->name('admin.solution.all');
+
+        Route::get('edit-solution/{id}',[SolutionController::class,'edit'])->name('admin.solution.edit');
+        Route::post('update-solution',[SolutionController::class,'updatesolution'])->name('admin.solution.update');
+        Route::get('delete-solution/{id}',[SolutionController::class,'destroy'])->name('admin.solution.destroy');
+        Route::get('delete-solution/{id}',[SolutionController::class,'destroy'])->name('admin.solution.destroy');
 
 
     });

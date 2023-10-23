@@ -6,11 +6,15 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Category;
 use App\Models\Product;
+use App\Models\Solution;
 class WebsiteController extends Controller
 {
     public function index(){
-
-        return view('website.index');
+        $products = Product::orderBy('id', 'DESC')->with('category')->get();
+        $data['products'] = $products;
+        $solution = Solution::orderBy('id', 'DESC')->get()->take(6);
+        $data['solutions'] = $solution;
+        return view('website.index')->with($data);
     }
 
     public function about(){
@@ -26,9 +30,9 @@ class WebsiteController extends Controller
 
         return view('website.contact');
     }
-    public function services(){
-
-        return view('website.services');
+    public function solutions(){
+        $solutions = Solution::orderBy('id','DESC')->get();
+        return view('website.solutions',compact('solutions'));
     }
     public function products(){
             $categories = Category::where('status', '1')->get();
@@ -45,6 +49,13 @@ class WebsiteController extends Controller
            
 
         return view('website.product',compact('product'));
+    }
+
+    public function solution($id,$slug){
+        $solution = Solution::where('id', $id)->first();
+           
+        $solutions = Solution::orderBy('id','DESC')->get();
+        return view('website.solution',compact('solution','solutions'));
     }
 
 }

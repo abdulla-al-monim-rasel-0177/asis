@@ -238,90 +238,21 @@
         </div>
 
         <div class="row">
+            @foreach($solutions as  $solution)
             <div class="col-md-4 col-sm-6">
                 <div class="single-our-service">
                     <figure class="img-box">
-                        <a href="single-service.html"><img src="{{asset('fontend')}}/images/service/1.jpg"
+                        <a href="{{route('website.solution',[$solution->id,$solution->slug])}}"><img src="{{asset($solution->image_one)}}"
                                 alt="Awesome Image"></a>
                     </figure>
-                    <a href="single-service.html">
-                        <h4 class="line-1-truncate">Optical Fiber And Electrical Network Solutions</h4>
+                    <a href="{{route('website.solution',[$solution->id,$solution->slug])}}">
+                        <h4 class="line-1-truncate">{{$solution->title}}</h4>
                     </a>
-                    <p class="line-2-truncate">Asis helps its esteemed clients create their fiber and electric networks
-                        by providing both design
-                        and execution for fiber optics and electric networks.</p>
+                    <p class="line-2-truncate">{{$solution->sort_description}}</p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="single-our-service">
-                    <figure class="img-box">
-                        <a href="single-service.html"><img src="{{asset('fontend')}}/images/service/2.jpg"
-                                alt="Awesome Image"></a>
-                    </figure>
-                    <a href="single-service.html">
-                        <h4 class="line-1-truncate">Data Centers Works & Services</h4>
-                    </a>
-                    <p class="line-2-truncate">Products Tailored for Any Scenario
-                        With an extensive range of products, including prefabricated modular data center solutions, core
-                        components ranging from power supply , cooling to DCIM
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="single-our-service">
-                    <figure class="img-box">
-                        <a href="single-service.html"><img src="{{asset('fontend')}}/images/service/3.jpg"
-                                alt="Awesome Image"></a>
-                    </figure>
-                    <a href="single-service.html">
-                        <h4 class="line-1-truncate">Telecommunications Solutions</h4>
-                    </a>
-                    <p class="line-2-truncate">We offer a comprehensive range of telecom equipment, from telephone
-                        systems to VoIP solutions,
-                        that keep you connected efficiently and reliably.</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="single-our-service">
-                    <figure class="img-box">
-                        <a href="#single-service.html"><img src="{{asset('fontend')}}/images/service/4.jpg"
-                                alt="Awesome Image"></a>
-                    </figure>
-                    <a href="#single-service.html">
-                        <h4 class="line-1-truncate">Power & Energy Solutions</h4>
-                    </a>
-                    <p class="line-2-truncate">Reliable Power Generators: Keep your operations running smoothly with our
-                        range of power generators, ensuring a constant and stable power supply.</p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="single-our-service">
-                    <figure class="img-box">
-                        <a href="#single-service.html"><img src="{{asset('fontend')}}/images/service/5.jpg"
-                                alt="Awesome Image"></a>
-                    </figure>
-                    <a href="#single-service.html">
-                        <h4 class="line-1-truncate">Renewable Energy Solutions</h4>
-                    </a>
-                    <p class="line-2-truncate">Solar Panels: Embrace sustainable energy generation with our advanced
-                        solar panels, harnessing the power of the sun.
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <div class="single-our-service">
-                    <figure class="img-box">
-                        <a href="#single-service.html"><img src="{{asset('fontend')}}/images/service/6.jpg"
-                                alt="Awesome Image"></a>
-                    </figure>
-                    <a href="#single-service.html">
-                        <h4 class="line-1-truncate">Low Current Solutions</h4>
-                    </a>
-                    <p class="line-2-truncate">Low Voltage Cables: Enhance your low current systems with our
-                        high-quality cables and wiring solutions.
-                    </p>
-                </div>
-            </div>
+            @endforeach
+            
 
         </div>
     </div>
@@ -333,72 +264,24 @@
             <h2>Latest Projects</h2>
         </div>
         <div class="latest-project-carousel">
+            @foreach($products as $product)
             <div class="item">
                 <div class="single-project">
                     <figure class="imghvr-shutter-in-out-horiz">
-                        <img src="{{asset('fontend')}}/images/project/p1.jpg" alt="Awesome Image" />
+                        <img src="{{asset($product->main_image)}}" alt="Awesome Image" />
                         <figcaption>
                             <div class="content">
-                                <a href="project-single.html">
-                                    <h4>PETROLEUM GAS</h4>
+                                <a href="{{route('website.product',[$product->id,$product->slug])}}">
+                                    <h4>{{$product->title}}</h4>
                                 </a>
-                                <p>Chemical</p>
+                                <p>{{$product->category->name}}</p>
                             </div>
                         </figcaption>
                     </figure>
                 </div>
             </div>
-            <div class="item">
-                <div class="single-latest-project-carousel">
-                    <div class="single-project">
-                        <figure class="imghvr-shutter-in-out-horiz">
-                            <img src="{{asset('fontend')}}/images/project/p2.jpg" alt="Awesome Image" />
-                            <figcaption>
-                                <div class="content">
-                                    <a href="project-single.html">
-                                        <h4>MULTI SPRING PUSH</h4>
-                                    </a>
-                                    <p>Mechanical</p>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div><!-- /.single-latest-project-carousel -->
-            </div>
-            <div class="item">
-                <div class="single-latest-project-carousel">
-                    <div class="single-project">
-                        <figure class="imghvr-shutter-in-out-horiz">
-                            <img src="{{asset('fontend')}}/images/project/p3.jpg" alt="Awesome Image" />
-                            <figcaption>
-                                <div class="content">
-                                    <a href="project-single.html">
-                                        <h4>STORAGE SYSTEM</h4>
-                                    </a>
-                                    <p>Power Energy</p>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="single-latest-project-carousel">
-                    <div class="single-project">
-                        <figure class="imghvr-shutter-in-out-horiz">
-                            <img src="{{asset('fontend')}}/images/project/p4.jpg" alt="Awesome Image" />
-                            <figcaption>
-                                <div class="content">
-                                    <a href="project-single.html">
-                                        <h4>MENUFACTURING</h4>
-                                    </a>
-                                    <p>Agricultural</p>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
-            </div>
+            @endforeach
+            
         </div>
 
     </div>

@@ -35,13 +35,13 @@
                             <div class="box">
                                 <div class="top-box">
                                     <div class="title">
-                                        <a href="{{route('website.product',[$product->id,$product->title])}}"><h3>{{$product->title}}</h3></a>
+                                        <a href="{{route('website.product',[$product->id,$product->slug])}}"><h3>{{$product->title}}</h3></a>
                                     </div>
                                 </div>
                                 <div class="bottom-box">
                                     <ul>
                                         <li><a data-group="1" href="{{asset($product->main_image)}}" class="img-popup"><i class="fa fa-search-plus"></i></a></li>
-                                        <li><a href="{{route('website.product',[$product->id,$product->title])}}"><i class="fa fa-link"></i></a></li>
+                                        <li><a href="{{route('website.product',[$product->id,$product->slug])}}"><i class="fa fa-link"></i></a></li>
                                     </ul>
                                 </div>
                             </div>

@@ -21,25 +21,15 @@
                 <img src="{{asset($product->image_two)}}" alt="">
             </div>
             <div class="col-md-8 col-sm-12">
-                <h4>PRODUCT SORT DESCRIPTION</h4>
-                <p>{{$product->sort_description}}</p>
+               <!--  <h4>PRODUCT SORT DESCRIPTION</h4>
+                <p>{{$product->sort_description}}</p> -->
                 <h4>PROJECT DESCRIPTION</h4>
                 {!!$product->description!!}
             </div>
             <div class="col-md-4 col-sm-12">
-                <h4>PROJECT INFO</h4>
-                <p>These men promptly escaped from a maximum security stockade to the Los Angeles underground. Love exciting and new. Come aboard were expecting you. Love life's sweetest reward Let it flow it floats back to you. Well the first thing you know ol' Jeds a mil lionaire infolk said Jed move away.</p>
-                <div class="content">
-                    <h5>CLIENTS</h5>
-                    <p>Titan Builder Trusted</p>
-                    <h5>CATEGORIES</h5>
-                    <p>Architecture, Construction</p>
-                    <h5>COMPLETED</h5>
-                    <p>June 12, 2016</p>
-                    <h5>PROJECT BUDGETS</h5>
-                    <p>$35,000</p>
-
-                </div>
+                <h4>Summary Description</h4>
+                <p>{{$product->sort_description}}</p>
+                
             </div>
         </div>
     </div>
