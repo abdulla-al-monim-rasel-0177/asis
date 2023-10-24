@@ -106,7 +106,7 @@
 
 
 <section class="home-google-map">
-    <div 
+    <!-- <div 
         class="google-map" 
         id="contact-google-map" 
         data-map-lat="23.767025889635228" 
@@ -115,7 +115,8 @@
         data-map-title="Chester"
         data-map-zoom="10" >
 
-    </div>
+    </div> -->
+    <iframe style="width: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110554.53959436617!2d31.2088526!3d30.013055699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145846e44824ff65%3A0x85ec0204134e2d00!2sAfro%20Egypt%20Engineering%20Company!5e0!3m2!1sen!2sbd!4v1698175924133!5m2!1sen!2sbd" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 </section>
 
