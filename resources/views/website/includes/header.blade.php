@@ -37,7 +37,7 @@
                             </div>
                             <div class="text-holder">
                                 <h6>Mail Us</h6>
-                                <a href="#"><p>support@asis.com</p></a>
+                                <a href="#"><p>support@asis.eg</p></a>
                             </div>
                         </li>
                     </ul>
@@ -77,7 +77,7 @@
                                 <li ><a href="{{route('website.products')}}">Products</a>
                                     
                                 </li>
-                                <li ><a href="{{route('website.news')}}">Latest News</a>
+                                <!-- <li ><a href="{{route('website.news')}}">Latest News</a> -->
                                    
                                 </li>
                                 
@@ -97,7 +97,7 @@
                                 <li ><a href="{{route('website.products')}}">Products</a>
                                     
                                 </li>
-                                <li ><a href="{{route('website.news')}}">Latest News</a>
+                                <!-- <li ><a href="{{route('website.news')}}">Latest News</a> -->
                                    
                                 </li>
                                 
@@ -115,13 +115,13 @@
             <div class="right-column">
                 <div class="right-area">
                     <div class="nav_side_content">
-                        <div class="search_option">
+                        <!-- <div class="search_option">
                             <button class="search tran3s dropdown-toggle color1_bg" id="searchDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search" aria-hidden="true"></i></button>
                             <form action="#" class="dropdown-menu" aria-labelledby="searchDropdown">
                                 <input type="text" placeholder="Search...">
                                 <button><i class="fa fa-search" aria-hidden="true"></i></button>
                             </form>
-                       </div>
+                       </div> -->
 
                    </div>
                    <div class="link_btn float_right">

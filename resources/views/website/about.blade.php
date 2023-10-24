@@ -62,7 +62,7 @@
         <div class="content">
             <h2>Since 2022,we have been delivering cutting-edge telecommunication infrastructure solutions.</h2>
             <p>Our success stems from the dedicated efforts of our highly experienced and fully authorized specialists, as well as our committed team of subcontractors, who ensure the utmost quality and excellence in every project we undertake.</p>
-            <a href="contact.html" class="thm-btn bg-clr1">contact us</a>
+            <a href="{{route('website.contact')}}" class="thm-btn bg-clr1">contact us</a>
         </div>
     </div>
 </section>
@@ -188,7 +188,7 @@
                 <h4>Have any question or need any business consultation?</h4>
             </div>
             <div class="float_right">
-                <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
+                <a href="{{route('website.contact')}}" class="thm-btn bg-clr2">Request Quote</a>
             </div>
         </div>
                 

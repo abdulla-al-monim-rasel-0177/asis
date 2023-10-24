@@ -2,7 +2,7 @@
     <div class="footer-main sec-padd2">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="footer-col">
                         <div class="logo-part">
                             <a href="#" class="footer-logo text-uppercase">
@@ -20,21 +20,18 @@
 
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="footer-col service-col">
-                        <h3 class="footer-title">Services</h3>
+                        <h3 class="footer-title">Solutions</h3>
                         <ul class="footer-list">
-                            <li><a href="#">Chemical Research</a></li>
-                            <li><a href="#">Material Science</a></li>
-                            <li><a href="#">Petroleum and Gas</a></li>
-                            <li><a href="#">Mechanical Engineering</a></li>
-                            <li><a href="#">Agriculture Processing</a></li>
-                            <li><a href="#">Power and Energy</a></li>
+                            @foreach(App\Models\Solution::get()->take(6) as $solution)
+                            <li><a href="{{route('website.solution',[$solution->id,$solution->slug])}}">{{$solution->title}}</a></li>
+                            @endforeach
                         </ul>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <!-- <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <div class="footer-col post-column">
                         <h3 class="footer-title">Recent News</h3>
                         <div class="post-list">
@@ -51,8 +48,8 @@
 
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                </div> -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="footer-col">
                         <h3 class="footer-title">Subscribe Us</h3>
                         <div class="footer-widget contact-column">

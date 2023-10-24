@@ -261,7 +261,7 @@
 <section class="latest-project sec-padd" style="background-image: url({{asset('fontend')}}/images/background/5.jpg);">
     <div class="container">
         <div class="section-title">
-            <h2>Latest Projects</h2>
+            <h2>Latest Product</h2>
         </div>
         <div class="latest-project-carousel">
             @foreach($products as $product)
@@ -288,7 +288,7 @@
 </section>
 
 
-<section class="blog-section sec-padd2">
+<!-- <section class="blog-section sec-padd2">
     <div class="container">
         <div class="section-title">
             <h2>latest news</h2>
@@ -388,7 +388,7 @@
 
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="call-back sec-padd2" style="background-image: url({{asset('fontend')}}/images/background/4.jpg);">
     <div class="container">
@@ -403,7 +403,7 @@
                 <div class="text">
                     <p>Any kind of business solution and consultion hesitate to contact with us for customer support. We
                         are love to hear from you</p><br>
-                    <p><span>Phone & Email:</span> For any information contact with us through our <a href="mailto:support@asis.com">
+                    <p><span>Phone & Email:</span> For any information contact with us through our <a href="mailto:support@asis.eg">
                             Email</a> and you can also contact with directe by call us in this number <a href="tel:+20238367340/9">(+20) 2 38367340/9</a></p><br>
                     <p><span>Office Hours:</span> We are alwyes open excpet saturday & Sunday from <span>10:00am</span>
                         to <span> 8:00pm</span></p>

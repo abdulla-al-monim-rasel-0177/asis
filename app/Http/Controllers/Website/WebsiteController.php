@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Category;
 use App\Models\Product;
 use App\Models\Solution;
+use App\Models\Contact;
 class WebsiteController extends Controller
 {
     public function index(){
@@ -56,6 +57,16 @@ class WebsiteController extends Controller
            
         $solutions = Solution::orderBy('id','DESC')->get();
         return view('website.solution',compact('solution','solutions'));
+    }
+    public function contactus(Request $request){
+        $contact = Contact::create([
+            'name'              => $request->name,
+            'email'             => $request->email,
+            'phone'             => $request->phone,
+            'subject'           => $request->subject,
+            'message'           => $request->message,
+        ]);
+        return view('website.contact');
     }
 
 }

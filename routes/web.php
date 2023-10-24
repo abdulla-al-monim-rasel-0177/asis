@@ -71,6 +71,7 @@ Route::controller(WebsiteController::class)->group(function () {
     Route::get('/about-us', 'about')->name('website.about');
     Route::get('/news', 'news')->name('website.news');
     Route::get('/contact-us', 'contact')->name('website.contact');
+    Route::post('/contact-store', 'contactus')->name('website.contactus');
     Route::get('/solutions', 'solutions')->name('website.solutions');
     Route::get('/solution/{id}/{slug}', 'solution')->name('website.solution');
     Route::get('/products', 'products')->name('website.products');

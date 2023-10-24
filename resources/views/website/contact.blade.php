@@ -25,26 +25,27 @@
             <div class="col-md-8">
         
                 <div class="contact-form">
-                    <form id="contact-form" name="contact_form" class="default-form" action="{{asset('fontend')}}/inc/sendmail.php" method="post">
+                    <form  action="{{route('website.contactus')}}" class="default-form" action="{{asset('fontend')}}/inc/sendmail.php" method="post">
+                        @csrf
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" name="form_name" value="" placeholder="Your Name*" required="">
+                                <input type="text" name="name" value="" placeholder="Your Name*" required="">
                             </div>
                             <div class="col-md-6">
-                                <input type="email" name="form_email" value="" placeholder="Your Mail*" required="">
+                                <input type="email" name="email" value="" placeholder="Your Mail*" required="">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" name="form_phone" value="" placeholder="Phone">
+                                <input type="text" name="phone" value="" placeholder="Phone">
                             </div>
                             <div class="col-md-6">
-                                <input type="text" name="form_subject" value="" placeholder="Subject">
+                                <input type="text" name="subject" value="" placeholder="Subject">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <textarea name="form_message" placeholder="Your Message.." required=""></textarea>
+                                <textarea name="message" placeholder="Your Message.." required=""></textarea>
                             </div>
                         </div>
                         <div class="row">
