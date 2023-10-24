@@ -6,8 +6,8 @@
 	<link rel="stylesheet" href="{{asset('fontend')}}/css/responsive.css">
 	<!-- <link rel="stylesheet" href="{{asset('public')}}/css/app.css"> -->
     <!-- Favicon -->
-<link rel="apple-touch-icon" sizes="180x180" href="{{asset('fontend')}}/images/favicon/apple-touch-icon.png"> <link
-	rel="icon" type="image/png" href="{{asset('fontend')}}/images/favicon/favicon-32x32.png" sizes="32x32"> <link
-	rel="icon" type="image/png" href="{{asset('fontend')}}/images/favicon/favicon-16x16.png" sizes="16x16">
-	<!--INTERNAL Toastr css -->
-		<link href="{{asset('../assets/plugins/toastr/toastr.css')}}?v=<?php echo time(); ?>" rel="stylesheet" />
+<link rel="apple-touch-icon" sizes="180x180" href="{{asset('fontend')}}/images/favicon/fav-icon.png"> <link
+	rel="icon" type="image/png" href="{{asset('fontend')}}/images/favicon/fav-icon.png" sizes="32x32"> <link
+	rel="icon" type="image/png" href="{{asset('fontend')}}/images/favicon/fav-icon.png" sizes="16x16">
+	<!-- toster css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" integrity="sha512-3pIirOrwegjM6erE5gPSwkUzO+3cTjpnV9lexlNZqvupR64iZBnOOTiiLPb9M36zpMScbmUNIcHUqKD47M719g==" crossorigin="anonymous" referrerpolicy="no-referrer" />

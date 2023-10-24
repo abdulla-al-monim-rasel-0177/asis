@@ -2,7 +2,7 @@
 
 @section('content')
 <!--Start breadcrumb area-->     
-<section class="breadcrumb-area" style="background-image: url({{asset('fontend')}}/images/background/3.jpg);">
+<section class="breadcrumb-area" style="background-image: url({{asset('fontend')}}/images/background/CONTACT-US-BANNER.png);">
 	<div class="container text-center">
 		<h1>Contact Us</h1>
 	</div>
@@ -17,7 +17,7 @@
     <div class="container">
         <div class="section-title">
             <h2>get in <span class="thm-color">touch</span></h2>
-            <p>Sometimes you want to go where everybody knows your name. And they're always glad you <br> came. Straight nin' the hills Someday the mountain will.</p>
+            <p>Please feel free to contact us</p>
         </div>
         
         <div class="row">
@@ -25,7 +25,7 @@
             <div class="col-md-8">
         
                 <div class="contact-form">
-                    <form  action="{{route('website.contactus')}}" class="default-form" action="{{asset('fontend')}}/inc/sendmail.php" method="post">
+                    <form  action="{{route('website.contactus')}}" id="admin_form" class="default-form"  method="post">
                         @csrf
                         <div class="row">
                             <div class="col-md-6">
@@ -61,8 +61,8 @@
             <div class="col-md-4">
                 <div class="footer-contact-info">
                     <div class="title">
-                        <h4>Quick Contact</h4>
-                        <p>If you are passionate about helping people: through education, or preventing then you </p>
+                        <!-- <h4>Quick Contact</h4> -->
+                        <!-- <p>Please feel free to contact us </p> -->
                     </div>
                     <ul class="clearfix">
                         <li>
@@ -71,8 +71,8 @@
                             </div>
                             <div class="text-holder">
 
-                                <h6>321, Breaking Street</h6>
-                                <p>Newyork ,USA 10002</p>
+                                <h6>Farrag Mall, Central Axis</h6>
+                                <p>6th October, Giza, Egypt</p>
                             </div>
                         </li>
                         <li>
@@ -81,7 +81,7 @@
                             </div>
                             <div class="text-holder">
                                 <h6>Call Us On</h6>
-                                <p>1-8000-978-6543</p>
+                                <p>(+20) 2 38367340/9</p>
                             </div>
                         </li>
                         <li>
@@ -90,7 +90,7 @@
                             </div>
                             <div class="text-holder">
                                 <h6>Mail Us @</h6>
-                                <a href="#"><p>Supportuss@gmail.com</p></a>
+                                <a href="#"><p>support@asis.eg</p></a>
                             </div>
                         </li>
                     </ul>
@@ -109,9 +109,9 @@
     <div 
         class="google-map" 
         id="contact-google-map" 
-        data-map-lat="40.885844" 
-        data-map-lng="-74.620143" 
-        data-icon-path="{{asset('fontend')}}/images/icon/marker.png"
+        data-map-lat="23.767025889635228" 
+        data-map-lng="90.38928753113895" 
+      
         data-map-title="Chester"
         data-map-zoom="10" >
 
@@ -119,18 +119,5 @@
 
 </section>
 
-<div class="call-out2">
-    <div class="container">
-        <div class="clearfix">
-            <div class="float_left">
-                <h4>Have any question or need any business consultation?</h4>
-            </div>
-            <div class="float_right">
-                <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
-            </div>
-        </div>
-                
-    </div>
-</div>
 
 @endsection

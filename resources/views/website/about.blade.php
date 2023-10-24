@@ -4,7 +4,7 @@
 
 
 <!--Start breadcrumb area-->
-<section class="breadcrumb-area" style="background-image: url({{asset('fontend')}}/images/background/3.jpg);"> <div
+<section class="breadcrumb-area" style="background-image: url({{asset('fontend')}}/images/background/ABOUT-US.png);"> <div
     class="container text-center"> <h1>About us</h1>
     </div> </section> <!--End breadcrumb area-->
 
@@ -169,8 +169,9 @@
             <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
                 <h2>Subscribe For Newsletter</h2>
                 <p>Subscribe To Our Newsletter To Stay Updated</p>
-                <form class="subscribe-form">
-                    <input type="email" placeholder="Email Address"><span class="fa fa-envelope"></span>
+                <form class="subscribe-form" action="{{route('website.subscribe')}}" method="post">
+                    @csrf
+                    <input type="email" required placeholder="Email Address" name="email"> <span class="fa fa-envelope"></span>
                     <button type="submit" class="thm-btn bg-clr1">subscribe us</button>
                 </form>
             </div>

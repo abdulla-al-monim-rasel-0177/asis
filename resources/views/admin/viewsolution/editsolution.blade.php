@@ -181,6 +181,24 @@
 									<div class="form-group">
 										<div class="row">
 											<div class="col-md-3">
+												<label class="form-label mb-0 mt-2">Thumbnail</label>
+											</div>
+											<div class="col-md-9">
+												<input type="file" accept="image/*" name="image_one">
+												<p>W:370 H:190</p>
+												<span id="ImageOneError" class="text-danger alert-message"></span>
+												@error('image_one')
+													<span class="invalid-feedback" role="alert">
+														<strong>{{ $message }}</strong>
+													</span>
+												@enderror
+											</div>
+
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="row">
+											<div class="col-md-3">
 												<label class="form-label mb-0 mt-2">Banner</label>
 											</div>
 											<div class="col-md-9">

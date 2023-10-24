@@ -11,11 +11,11 @@
                         </div>
                         <p class="footer-words">Over 24 years experience and of the international user standards and technological works changes and industrial systems, we dedicated to provide the best and economical. </p>
                         <ul class="list-inline footer-social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=61552510388136"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/asistechnology/"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/asistechnology/"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/asistechnology/"><i class="fa fa-pinterest-p"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/asistechnology/"><i class="fa fa-instagram"></i></a></li>
                         </ul>
 
                     </div>
@@ -55,18 +55,19 @@
                         <div class="footer-widget contact-column">
 
                             <h5>Subscribe to our newsletter!</h5>
-                            <form action="#">
-                                <input type="email" placeholder="Email address....">
+                            <form action="{{route('website.subscribe')}}" method="post">
+                                @csrf
+                                <input type="email" name="email" required placeholder="Email address....">
                                 <button type="submit"><i class="fa fa-paper-plane"></i></button>
                             </form>
                             <p>We dont’t do spam and Your mail id very confidential.</p>
                             
                             <ul class="social-icon">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-feed"></i></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=61552510388136"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/asistechnology/"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/asistechnology/"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/asistechnology/"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/asistechnology/"><i class="fa fa-feed"></i></a></li>
                                 <li><a href="#"><i class="fa fa-skype"></i></a></li>
                             </ul>
                         </div>

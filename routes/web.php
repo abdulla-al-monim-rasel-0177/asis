@@ -72,6 +72,7 @@ Route::controller(WebsiteController::class)->group(function () {
     Route::get('/news', 'news')->name('website.news');
     Route::get('/contact-us', 'contact')->name('website.contact');
     Route::post('/contact-store', 'contactus')->name('website.contactus');
+    Route::post('/subscribe', 'subscribe')->name('website.subscribe');
     Route::get('/solutions', 'solutions')->name('website.solutions');
     Route::get('/solution/{id}/{slug}', 'solution')->name('website.solution');
     Route::get('/products', 'products')->name('website.products');
@@ -84,7 +85,7 @@ Route::group(['middleware' =>['admin.auth','auth']], function(){
     Route::group(['prefix'=>'admin'],function(){
         Route::get('/',[AdminDashboardController::class,'dashboard'])->name('admin.dashboard');
 
-
+        Route::get('/contact-us',[AdminDashboardController::class,'contact'])->name('admin.contact');
         Route::get('role',[RoleCreateController::class,'index'])->name('admin.index.role');
         Route::get('role/create',[RoleCreateController::class,'create'])->name('admin.create.role');
         Route::get('role/edit/{id}',[RoleCreateController::class,'edit']);

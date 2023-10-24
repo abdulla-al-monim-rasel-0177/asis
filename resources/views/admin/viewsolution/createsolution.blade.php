@@ -230,7 +230,7 @@
 								</div>
 								<div class="card-footer">
 									<div class="form-group float-end">
-										<input type="submit"  class="btn btn-secondary btn-lg purchasecode" id="createticketbtnstr" value="Create ticket" >
+										<input type="submit"  class="btn btn-secondary btn-lg purchasecode" id="createticketbtnstr" value="Create Solution" >
 										<button type="submit" id="createticketbtn" class="btn btn-secondary btn-lg purchasecode" disabled="">Loading.. <i class="fa fa-spinner fa-spin"></i></button>
                                     
                                     

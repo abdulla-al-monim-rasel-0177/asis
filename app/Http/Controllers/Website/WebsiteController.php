@@ -8,6 +8,7 @@ use App\Models\Category;
 use App\Models\Product;
 use App\Models\Solution;
 use App\Models\Contact;
+use App\Models\Subscribe;
 class WebsiteController extends Controller
 {
     public function index(){
@@ -66,7 +67,27 @@ class WebsiteController extends Controller
             'subject'           => $request->subject,
             'message'           => $request->message,
         ]);
-        return view('website.contact');
+         $notification=array(
+            'message'=>'Thank you for contact us',
+            'alert-type'=>'success'
+        );
+        //  $notification=array(
+        //     'message'=>'Thank you for singing up for newsletter',
+        //     'alert-type'=>'success'
+        // );
+        return redirect()->back()->with($notification);
+    }
+
+    public function subscribe(Request $request){
+        $contact = Subscribe::create([
+            'email'             => $request->email,
+        ]);
+        
+         $notification=array(
+            'message'=>'Thank you for singing up for newsletter',
+            'alert-type'=>'success'
+        );
+        return redirect()->back()->with($notification);
     }
 
 }

@@ -26,7 +26,7 @@
         </ul>
 
         <div class="row masonary-layout filter-layout">
-            @foreach($products as $product)
+            @forelse($products as $product)
             <div class="col-md-4 mix col-sm-6 {{$product->category->name}} filter-item">
                 <div class="single-project-item">
                     <div class="img-box">
@@ -40,7 +40,7 @@
                                 </div>
                                 <div class="bottom-box">
                                     <ul>
-                                        <li><a data-group="1" href="{{asset($product->main_image)}}" class="img-popup"><i class="fa fa-search-plus"></i></a></li>
+                                        <li><a data-group="1" href="{{route('website.contact')}}" class="img-popup"><i class="fa fa-cart-plus"></i></a></li>
                                         <li><a href="{{route('website.product',[$product->id,$product->slug])}}"><i class="fa fa-link"></i></a></li>
                                     </ul>
                                 </div>
@@ -49,7 +49,13 @@
                     </div>
                 </div>
             </div>
-            @endforeach
+            @empty
+            <div class="col-md-4 mix col-sm-6 {{$product->category->name}} filter-item">
+                <div class="single-project-item">
+                    dsg
+                </div>
+            </div>
+            @endforelse
             
         </div>
     </div>
@@ -62,7 +68,7 @@
                 <h4>Have any question or need any business consultation?</h4>
             </div>
             <div class="float_right">
-                <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
+                <a href="{{route('website.contact')}}" class="thm-btn bg-clr2">Request Quote</a>
             </div>
         </div>
                 
@@ -70,3 +76,5 @@
 </div>
 
 @endsection
+
+<!-- <i class="fa-solid fa-cart-flatbed"></i> -->

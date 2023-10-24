@@ -199,7 +199,7 @@ class SolutionController extends Controller
                 $banner = 'uploads/solution/'.$name_gen;
         }
         
-        $image_one = $product->image_one;
+        $image_one = $solution->image_one;
         if ($request->image_one) {
 
             // if ($img->image) {
@@ -207,9 +207,9 @@ class SolutionController extends Controller
             // }
                 $image_one = $request->file('image_one');
                 $name_gen = "image_one". time() . '.' . $image_one->extension();
-                $location               = public_path('uploads/product/'.$name_gen);
+                $location               = public_path('uploads/solution/'.$name_gen);
                 Image::make($image_one)->resize(375,238)->save($location);
-                $image_one = 'uploads/product/'.$name_gen;
+                $image_one = 'uploads/solution/'.$name_gen;
         }
         $file = $solution->brouchure_pdf;
         if ( $request->file ) 
