@@ -15,7 +15,7 @@
             <div class="col-md-6 col-sm-12">
                 
                 <figure class="about-img">
-                    <img src="{{asset('fontend')}}/images/resource/1.png" alt="about titan builders photo">
+                    <img src="{{asset('fontend')}}/images/resource/home-955.png" alt="about titan builders photo">
                 </figure>
             </div>
             <div class="col-md-6 col-sm-12">
@@ -57,7 +57,7 @@
     </div>
 </section>
 
-<section class="call-out sec-padd center" style="background-image: url({{asset('fontend')}}/images/background/2.jpg);">
+<section class="call-out sec-padd center" style="background-image: url({{asset('fontend')}}/images/background/SINCE-2022.png);">
     <div class="container">
         <div class="content">
             <h2>Since 2022,we have been delivering cutting-edge telecommunication infrastructure solutions.</h2>
