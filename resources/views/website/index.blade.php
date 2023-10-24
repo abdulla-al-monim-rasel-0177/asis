@@ -167,6 +167,45 @@
 </section>
 <!--End rev slider wrapper-->
 
+<section class="brand-logo sec-padd">
+    <div class="container">
+        <ul class="brand-carousel">
+            <li>
+                <a href="https://www.huawei.com/en/"><img src="{{asset('fontend')}}/images/brand/Huawei.png"
+                        class="shadow-lg" alt=""></a>
+            </li>
+            <li>
+                <a href="https://www.honserv.com.hk"><img src="{{asset('fontend')}}/images/brand/NSV.png"
+                        class="shadow-lg" alt=""></a>
+            </li>
+            <li>
+                <a href="https://www.nokia.com/"><img
+                        src="{{asset('fontend')}}/images/brand/Nokia.png" class="shadow-lg" alt=""></a>
+            </li>
+            <li>
+                <a href="https://www.nec.com/"><img src="{{asset('fontend')}}/images/brand/nec.png"
+                        class="shadow-lg" alt=""></a>
+            </li>
+            <li>
+                <a href="https://en.naradapower.com/"><img src="{{asset('fontend')}}/images/brand/narada-logo.png"
+                        class="shadow-lg" alt=""></a>
+            </li>
+            <li>
+                <a href="https://en.szkexin.com.cn/"><img src="{{asset('fontend')}}/images/brand/ksin.png" class="shadow-lg"
+                        alt=""></a>
+            </li>
+            <li>
+                <a href="https://www.ericsson.com/en"><img src="{{asset('fontend')}}/images/brand/Ericsion.png" class="shadow-lg"
+                        alt=""></a>
+            </li>
+            <li>
+                <a href="https://www.cdatatec.com/"><img src="{{asset('fontend')}}/images/brand/C-data.png" class="shadow-lg"
+                        alt=""></a>
+            </li>
+        </ul>
+    </div>
+</section>
+
 
 <section class="about-us sec-padd-top">
     <div class="container">
