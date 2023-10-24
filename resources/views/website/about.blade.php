@@ -70,7 +70,7 @@
 <section class="team sec-padd">
     <div class="container">
         <div class="section-title center">
-            <h2>meet our team</h2>
+            <h2>Our Global Footprint</h2>
         </div>
 
         <div class="row">
@@ -78,18 +78,17 @@
                 <div class="item tran5">
                     <div class="team-member">
                         <figure class="img-box">
-                            <a href="#"><img src="{{asset('fontend')}}/images/team/4.jpg" alt="team member photo"></a>
+                            <a href="#"><img src="{{asset('fontend')}}/images/global-footprint/afro1669235778.jpg" alt="team member photo"></a>
                             <div class="overlay">
                                 <ul class="social">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                    <li><a href="mailto:info@afro-group.com"><i class="fa fa-envelope"></i></a></li>
+                                    <li><a href="tel:+201121161202"><i class="fa fa-phone"></i></a></li>
                                 </ul>
                             </div>
                         </figure>
                         <div class="member-info">
-                            <a href="#"><h5>ben Afflick</h5></a>
-                            <p>President</p>
+                            <a href="#"><h5>Egypt</h5></a>
+                            <p>Farrag Mall, 6th October, Giza, Egypt</p>
                         </div>
                     </div> 
                 </div>
@@ -99,18 +98,17 @@
                 <div class="item tran5">
                     <div class="team-member">
                         <figure class="img-box">
-                            <a href="#"><img src="{{asset('fontend')}}/images/team/3.jpg" alt="team member photo"></a>
+                            <a href="#"><img src="{{asset('fontend')}}/images/global-footprint/afro1669104713.jpg" alt="team member photo"></a>
                             <div class="overlay">
                                 <ul class="social">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                <li><a href="mailto:m.damanhoury@afro-group.com"><i class="fa fa-envelope"></i></a></li>
+                                    <li><a href="tel:+966540009106"><i class="fa fa-phone"></i></a></li>
                                 </ul>
                             </div>
                         </figure>
                         <div class="member-info">
-                            <a href="#"><h5>rick grimes</h5></a>
-                            <p>Co - founder</p>
+                            <a href="#"><h5>Saudi Arabia</h5></a>
+                            <p>Moussa Bin Nosier, Olaya Building</p>
                         </div>
                     </div>
                 </div>
@@ -120,18 +118,17 @@
                 <div class="item tran5">
                     <div class="team-member">
                         <figure class="img-box">
-                            <a href="#"><img src="{{asset('fontend')}}/images/team/2.jpg" alt="team member photo"></a>
+                            <a href="#"><img src="{{asset('fontend')}}/images/global-footprint/afro1669102742.jpg" alt="team member photo"></a>
                             <div class="overlay">
                                 <ul class="social">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                <li><a href="mailto:info@afro-group.com"><i class="fa fa-envelope"></i></a></li>
+                                    <li><a href="tel:+201121161202"><i class="fa fa-phone"></i></a></li>
                                 </ul>
                             </div>
                         </figure>
                         <div class="member-info">
-                            <a href="#"><h5>deryl dixon</h5></a>
-                            <p>Developer</p>
+                            <a href="#"><h5>United Arab Emirates</h5></a>
+                            <p>United Arab Emirates</p>
                         </div>
                     </div>
                 </div>
@@ -141,22 +138,100 @@
                 <div class="item tran5">
                     <div class="team-member">
                         <figure class="img-box">
-                            <a href="#"><img src="{{asset('fontend')}}/images/team/1.jpg" alt="team member photo"></a>
+                            <a href="#"><img src="{{asset('fontend')}}/images/global-footprint/afro1669101010.jpg" alt="team member photo"></a>
                             <div class="overlay">
                                 <ul class="social">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                <li><a href="mailto:info@afro-group.com"><i class="fa fa-envelope"></i></a></li>
+                                    <li><a href="tel:+201121161202"><i class="fa fa-phone"></i></a></li>
                                 </ul>
                             </div>
                         </figure>
                         <div class="member-info">
-                            <a href="#"><h5>Jom Caraleno</h5></a>
-                            <p>Engineer</p>
+                            <a href="#"><h5>Mali</h5></a>
+                            <p>Hamdallaye, Bamako.</p>
                         </div>
                     </div>
                 </div>
-                
+            </article>  
+
+            <article class="col-md-3 col-sm-6 col-xs-12">
+                <div class="item tran5">
+                    <div class="team-member">
+                        <figure class="img-box">
+                            <a href="#"><img src="{{asset('fontend')}}/images/global-footprint/afro1669235697.jpg" alt="team member photo"></a>
+                            <div class="overlay">
+                                <ul class="social">
+                                <li><a href="mailto:info@afro-group.com"><i class="fa fa-envelope"></i></a></li>
+                                    <li><a href="tel:+201121161202"><i class="fa fa-phone"></i></a></li>
+                                </ul>
+                            </div>
+                        </figure>
+                        <div class="member-info">
+                            <a href="#"><h5>Cote d Ivoire</h5></a>
+                            <p>Abidjan , Bietry , Zone 4, Côte d’Ivoire</p>
+                        </div>
+                    </div>
+                </div>
+            </article>      
+
+            <article class="col-md-3 col-sm-6 col-xs-12">
+                <div class="item tran5">
+                    <div class="team-member">
+                        <figure class="img-box">
+                            <a href="#"><img src="{{asset('fontend')}}/images/global-footprint/afro1669099416.jpg" alt="team member photo"></a>
+                            <div class="overlay">
+                                <ul class="social">
+                                <li><a href="mailto:info@afro-group.com"><i class="fa fa-envelope"></i></a></li>
+                                    <li><a href="tel:+201121161202"><i class="fa fa-phone"></i></a></li>
+                                </ul>
+                            </div>
+                        </figure>
+                        <div class="member-info">
+                            <a href="#"><h5>Guinea</h5></a>
+                            <p>Dixinn-Conakry BP:6706, Conakry</p>
+                        </div>
+                    </div>
+                </div>
+            </article>      
+
+            <article class="col-md-3 col-sm-6 col-xs-12">
+                <div class="item tran5">
+                    <div class="team-member">
+                        <figure class="img-box">
+                            <a href="#"><img src="{{asset('fontend')}}/images/global-footprint/afro1669155675.png" alt="team member photo"></a>
+                            <div class="overlay">
+                                <ul class="social">
+                                <li><a href="mailto:info@afro-group.com"><i class="fa fa-envelope"></i></a></li>
+                                    <li><a href="tel:+201121161202"><i class="fa fa-phone"></i></a></li>
+                                </ul>
+                            </div>
+                        </figure>
+                        <div class="member-info">
+                            <a href="#"><h5>Comoros</h5></a>
+                            <p>Mvouvou-djou, Moroni, Comoros</p>
+                        </div>
+                    </div>
+                </div>
+            </article>     
+
+            <article class="col-md-3 col-sm-6 col-xs-12">
+                <div class="item tran5">
+                    <div class="team-member">
+                        <figure class="img-box">
+                            <a href="#"><img src="{{asset('fontend')}}/images/global-footprint/afro1669104274.jpg" alt="team member photo"></a>
+                            <div class="overlay">
+                                <ul class="social">
+                                <li><a href="mailto:info@afro-group.com"><i class="fa fa-envelope"></i></a></li>
+                                    <li><a href="tel:+201121161202"><i class="fa fa-phone"></i></a></li>
+                                </ul>
+                            </div>
+                        </figure>
+                        <div class="member-info">
+                            <a href="#"><h5>Sierra Leone</h5></a>
+                            <p>2 Nylander Lane, Freetown, Sierra Leone</p>
+                        </div>
+                    </div>
+                </div>
             </article>      
         </div>
     </div>
