@@ -2,7 +2,7 @@
 
 @section('content')
 <!--Start breadcrumb area-->     
-<section class="breadcrumb-area" style="background-image: url({{asset('fontend')}}/images/background/3.jpg);">
+<section class="breadcrumb-area" style="background-image: url({{asset('fontend')}}/images/background/product-banner.png);">
 	<div class="container text-center">
 		<h1>Products</h1>
 	</div>

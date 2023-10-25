@@ -42,7 +42,7 @@
                 <h4>Have any question or need any business consultation?</h4>
             </div>
             <div class="float_right">
-                <a href="contact.html" class="thm-btn bg-clr2">Request Quote</a>
+                <a href="{{route('website.contact')}}" class="thm-btn bg-clr2">Request Quote</a>
             </div>
         </div>
                 

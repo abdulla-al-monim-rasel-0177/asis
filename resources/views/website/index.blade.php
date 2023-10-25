@@ -444,8 +444,8 @@
                         are love to hear from you</p><br>
                     <p><span>Phone & Email:</span> For any information contact with us through our <a href="mailto:support@asis.eg">
                             Email</a> and you can also contact with directe by call us in this number <a href="tel:+20238367340/9">(+20) 2 38367340/9</a></p><br>
-                    <p><span>Office Hours:</span> We are alwyes open excpet saturday & Sunday from <span>10:00am</span>
-                        to <span> 8:00pm</span></p>
+                    <p><span>Office Hours:</span> We are alwyes open excpet friday and saturday from <span>10:00am</span>
+                        to <span> 7:00pm</span></p>
                 </div>
             </div>
             <div class="col-md-7 col-sm-12">

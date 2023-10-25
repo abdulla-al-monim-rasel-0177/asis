@@ -9,7 +9,7 @@
                                 <img src="{{asset('fontend')}}/images/logo/logo2.jpg" alt="logo">
                             </a>
                         </div>
-                        <p class="footer-words">Over 24 years experience and of the international user standards and technological works changes and industrial systems, we dedicated to provide the best and economical. </p>
+                        <p class="footer-words">We offer a comprehensive range of telecom equipment, from telephone systems to VoIP solutions, that keep you connected efficiently and reliably. </p>
                         <ul class="list-inline footer-social">
                             <li><a href="https://www.facebook.com/profile.php?id=61552510388136"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="https://www.linkedin.com/company/asistechnology/"><i class="fa fa-twitter"></i></a></li>
@@ -80,16 +80,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <p class="copyright">© 2016 all rights reserved</p>
+                    <p class="copyright">©2023 All Rights Reserved. Developed by <a href="https://take.win/">Take.win</a> </p>
                 </div>
                 <div class="col-md-9">
                     <nav class="footer-menu pull-right">
                         <ul class="list-inline">
-                            <li><a href="index.html">home</a></li>
-                            <li><a href="our-service-1.html">services</a></li>
-                            <li><a href="#">term &amp; condition</a></li>
-                            <li><a href="#">privacy policy</a></li>
-                            <li><a href="contact-us.html">contact us</a></li>
+                            <li><a href="{{route('website.home')}}">home</a></li>
+                            <li><a href="{{route('website.about')}}">About Us</a></li>
+                            <li><a href="{{route('website.products')}}">Our Products</a></li>
+                            <li><a href="{{route('website.solutions')}}">Our Solution</a></li>
+                            <!-- <li><a href="#">term &amp; condition</a></li>
+                            <li><a href="#">privacy policy</a></li> -->
+                            <li><a href="{{route('website.contact')}}">contact us</a></li>
                         </ul>
                     </nav>
                 </div>
